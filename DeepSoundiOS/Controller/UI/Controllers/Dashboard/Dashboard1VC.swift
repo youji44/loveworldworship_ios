@@ -921,7 +921,7 @@ extension Dashboard1VC:UITableViewDelegate,UITableViewDataSource{
                 return artistArray.count
             }
             else if type == .recentlyplayed{
-                return recentlyPlayedArray?.newRelease?.count ?? 0
+                return recentlyPlayedArray?.newRelease?.data?.count ?? 0
             }
             else if type == .popular{
                 return mostPopularArray?.newRelease?.data?.count ?? 0
@@ -1009,7 +1009,7 @@ extension Dashboard1VC:UITableViewDelegate,UITableViewDataSource{
             let headerView = tableView.dequeueReusableCell(withIdentifier: AssigingOrderHeaderTableCell.identifier) as!  AssigingOrderHeaderTableCell
             headerView.btnArrangOrder.tag = type.rawValue
             headerView.btnArrangOrder.addTarget(self, action: #selector(didTapFilterData(sender:)), for: .touchUpInside)
-            headerView.lblTotalSongs.text = "\(recentlyPlayedArray?.newRelease?.count ?? 0) Recently Played"
+            headerView.lblTotalSongs.text = "\(recentlyPlayedArray?.newRelease?.data?.count ?? 0) Recently Played"
             return headerView
             
         }

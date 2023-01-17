@@ -388,10 +388,10 @@ class UserInfoVC: BaseVC {
                                     self.followBtn.setImage(R.image.ic_add(), for: .normal)
                                     self.followBtn.backgroundColor = UIColor.hexStringToUIColor(hex: "444444")
                                 }
-                                self.latestSongArray = success?.data?.latestsongs?[0] ?? []
-                                self.topSongArray = success?.data?.topSongs?[0] ?? []
+                                self.latestSongArray = success?.data?.latestsongs ?? []
+                                self.topSongArray = success?.data?.topSongs ?? []
                                 self.storeSongsArray = success?.data?.store?[0] ?? []
-                                self.activitiesArray = success?.data?.activities?[0] ?? []
+                                self.activitiesArray = success?.data?.activities ?? []
                                 
                                 if self.latestSongArray.isEmpty{
                                     self.latestSongLabel.isHidden = false

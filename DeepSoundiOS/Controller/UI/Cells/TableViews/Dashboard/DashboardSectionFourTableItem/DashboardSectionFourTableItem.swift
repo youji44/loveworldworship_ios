@@ -40,10 +40,14 @@ class DashboardSectionFourTableItem: UITableViewCell {
      }
      func bind(_ object:DiscoverModel.NewReleasesRecentlyPlayed?){
          self.object = object
-        for (value) in  self.object?.data ?? []{
-            self.songObject.append(value)
-          }
-        collectionView.reloadData()
+         for (value) in  self.object?.data ?? []{
+             self.songObject.append(value)
+         }
+         DispatchQueue.main.asyncAfter(deadline: .now() +  5.0) {
+             self.isloading = false
+             self.collectionView.reloadData()
+         }
+        
      }
     
 }

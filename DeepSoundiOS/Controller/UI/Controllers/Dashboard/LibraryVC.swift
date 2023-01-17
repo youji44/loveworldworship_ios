@@ -201,7 +201,7 @@ extension LibraryVC:UITableViewDelegate,UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if recentlyPlayedArray?.newRelease?.count != 0{
-            
+
             return 1
         }
         else{
