@@ -3293,8 +3293,8 @@ struct R: Rswift.Validatable {
     static let chatSenderTableItem = _R.nib._ChatSenderTableItem()
     /// Nib `ChatTableItem`.
     static let chatTableItem = _R.nib._ChatTableItem()
-    /// Nib `Comments-TableCell`.
-    static let commentsTableCell = _R.nib._CommentsTableCell()
+    /// Nib `Comments_TableCell`.
+    static let comments_TableCell = _R.nib._Comments_TableCell()
     /// Nib `CreateEventTableItem`.
     static let createEventTableItem = _R.nib._CreateEventTableItem()
     /// Nib `CreateProductCollectionItem`.
@@ -3435,8 +3435,8 @@ struct R: Rswift.Validatable {
     static let selectFilterTableCell = _R.nib._SelectFilterTableCell()
     /// Nib `SelectGenres-TableCell`.
     static let selectGenresTableCell = _R.nib._SelectGenresTableCell()
-    /// Nib `SelectPlaylist-TableCell`.
-    static let selectPlaylistTableCell = _R.nib._SelectPlaylistTableCell()
+    /// Nib `SelectPlaylist_TableCell`.
+    static let selectPlaylist_TableCell = _R.nib._SelectPlaylist_TableCell()
     /// Nib `SelectPrice-TableCell`.
     static let selectPriceTableCell = _R.nib._SelectPriceTableCell()
     /// Nib `SenderImageTableItem`.
@@ -3689,10 +3689,10 @@ struct R: Rswift.Validatable {
     #endif
 
     #if os(iOS) || os(tvOS)
-    /// `UINib(name: "Comments-TableCell", in: bundle)`
-    @available(*, deprecated, message: "Use UINib(resource: R.nib.commentsTableCell) instead")
-    static func commentsTableCell(_: Void = ()) -> UIKit.UINib {
-      return UIKit.UINib(resource: R.nib.commentsTableCell)
+    /// `UINib(name: "Comments_TableCell", in: bundle)`
+    @available(*, deprecated, message: "Use UINib(resource: R.nib.comments_TableCell) instead")
+    static func comments_TableCell(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.comments_TableCell)
     }
     #endif
 
@@ -4257,10 +4257,10 @@ struct R: Rswift.Validatable {
     #endif
 
     #if os(iOS) || os(tvOS)
-    /// `UINib(name: "SelectPlaylist-TableCell", in: bundle)`
-    @available(*, deprecated, message: "Use UINib(resource: R.nib.selectPlaylistTableCell) instead")
-    static func selectPlaylistTableCell(_: Void = ()) -> UIKit.UINib {
-      return UIKit.UINib(resource: R.nib.selectPlaylistTableCell)
+    /// `UINib(name: "SelectPlaylist_TableCell", in: bundle)`
+    @available(*, deprecated, message: "Use UINib(resource: R.nib.selectPlaylist_TableCell) instead")
+    static func selectPlaylist_TableCell(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.selectPlaylist_TableCell)
     }
     #endif
 
@@ -4536,8 +4536,8 @@ struct R: Rswift.Validatable {
       return R.nib.chatTableItem.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? ChatTableItem
     }
 
-    static func commentsTableCell(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> Comments_TableCell? {
-      return R.nib.commentsTableCell.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? Comments_TableCell
+    static func comments_TableCell(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> Comments_TableCell? {
+      return R.nib.comments_TableCell.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? Comments_TableCell
     }
 
     static func createEventTableItem(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> CreateEventTableItem? {
@@ -4832,8 +4832,8 @@ struct R: Rswift.Validatable {
       return R.nib.selectGenresTableCell.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? SelectGenres_TableCell
     }
 
-    static func selectPlaylistTableCell(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> SelectPlaylist_TableCell? {
-      return R.nib.selectPlaylistTableCell.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? SelectPlaylist_TableCell
+    static func selectPlaylist_TableCell(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> SelectPlaylist_TableCell? {
+      return R.nib.selectPlaylist_TableCell.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? SelectPlaylist_TableCell
     }
 
     static func selectPriceTableCell(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> SelectPrice_TableCell? {
@@ -9876,7 +9876,7 @@ struct _R: Rswift.Validatable {
       try _ChatReceiverTableItem.validate()
       try _ChatSenderTableItem.validate()
       try _ChatTableItem.validate()
-      try _CommentsTableCell.validate()
+      try _Comments_TableCell.validate()
       try _CreateEventTableItem.validate()
       try _CreateProductCollectionItem.validate()
       try _DashboardArtist_CollectionCell.validate()
@@ -9929,7 +9929,7 @@ struct _R: Rswift.Validatable {
       try _SectionHeaderTableViewCell.validate()
       try _SelectFilterTableCell.validate()
       try _SelectGenresTableCell.validate()
-      try _SelectPlaylistTableCell.validate()
+      try _SelectPlaylist_TableCell.validate()
       try _SelectPriceTableCell.validate()
       try _SenderImageTableItem.validate()
       try _SettingCreditCardTableCell.validate()
@@ -10359,17 +10359,17 @@ struct _R: Rswift.Validatable {
       fileprivate init() {}
     }
 
-    struct _CommentsTableCell: Rswift.NibResourceType, Rswift.Validatable {
+    struct _Comments_TableCell: Rswift.NibResourceType, Rswift.Validatable {
       let bundle = R.hostingBundle
-      let name = "Comments-TableCell"
+      let name = "Comments_TableCell"
 
       func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> Comments_TableCell? {
         return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? Comments_TableCell
       }
 
       static func validate() throws {
-        if UIKit.UIImage(named: "ImagePlacholder", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ImagePlacholder' is used in nib 'Comments-TableCell', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "ic_heartOutlinePlayer", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_heartOutlinePlayer' is used in nib 'Comments-TableCell', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "ImagePlacholder", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ImagePlacholder' is used in nib 'Comments_TableCell', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "ic_heartOutlinePlayer", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_heartOutlinePlayer' is used in nib 'Comments_TableCell', but couldn't be loaded.") }
         if #available(iOS 11.0, tvOS 11.0, *) {
         }
       }
@@ -11524,16 +11524,16 @@ struct _R: Rswift.Validatable {
       fileprivate init() {}
     }
 
-    struct _SelectPlaylistTableCell: Rswift.NibResourceType, Rswift.Validatable {
+    struct _SelectPlaylist_TableCell: Rswift.NibResourceType, Rswift.Validatable {
       let bundle = R.hostingBundle
-      let name = "SelectPlaylist-TableCell"
+      let name = "SelectPlaylist_TableCell"
 
       func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> SelectPlaylist_TableCell? {
         return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? SelectPlaylist_TableCell
       }
 
       static func validate() throws {
-        if UIKit.UIImage(named: "ic_uncheck", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_uncheck' is used in nib 'SelectPlaylist-TableCell', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "ic_uncheck", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_uncheck' is used in nib 'SelectPlaylist_TableCell', but couldn't be loaded.") }
         if #available(iOS 11.0, tvOS 11.0, *) {
         }
       }

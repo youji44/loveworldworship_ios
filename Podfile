@@ -19,7 +19,7 @@ target 'DeepSoundiOS' do
   pod 'FBSDKLoginKit'
   pod 'SDWebImage', '~> 4.0'
   pod 'DropDown', '2.3.4'
-  pod 'R.swift'
+  pod 'R.swift', '6.0.0'
   pod 'SkyFloatingLabelTextField', '~> 3.0'
   pod 'ReachabilitySwift', '~> 4.3.0'
   pod 'TransitionButton'
