@@ -11,7 +11,7 @@ import DeepSoundSDK
 import SwiftEventBus
 import GoogleMobileAds
 import Async
-class LibraryVC: UIViewController {
+class LibraryVC: BaseVC {
     
     @IBOutlet weak var chatBtn: UIButton!
     
@@ -218,6 +218,7 @@ extension LibraryVC:UITableViewDelegate,UITableViewDataSource{
         if recentlyPlayedArray?.newRelease?.count != 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: DashboardSectionFourTableItem.identifier) as! DashboardSectionFourTableItem
             cell.selectionStyle = .none
+            cell.loggedLibrayInVC = self
             cell.bind(recentlyPlayedArray?.newRelease ?? nil)
             return cell
         }

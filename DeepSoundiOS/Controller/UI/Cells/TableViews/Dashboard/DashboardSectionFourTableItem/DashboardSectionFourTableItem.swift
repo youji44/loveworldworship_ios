@@ -17,6 +17,7 @@ class DashboardSectionFourTableItem: UITableViewCell {
     private let popupContentController = R.storyboard.player.musicPlayerVC()
     var notloggedInVC:NotLoggedInHomeVC?
        var loggedInVC:Dashboard1VC?
+    var loggedLibrayInVC:LibraryVC?
     private var recentlyPlayedArrayMusic = [MusicPlayerModel]()
 
     var songObject = [DiscoverModel.Song]()
@@ -174,6 +175,14 @@ extension DashboardSectionFourTableItem:UICollectionViewDataSource,UICollectionV
          }else if self.loggedInVC != nil{
              self.loggedInVC?.addToRecentlyWatched(trackId: object.id ?? 0)
              self.loggedInVC?.tabBarController?.presentPopupBar(withContentViewController: self.popupContentController!, animated: true, completion: {
+                 self.popupContentController?.musicObject = musicObject
+                 self.popupContentController!.musicArray = self.recentlyPlayedArrayMusic
+                 self.popupContentController!.currentAudioIndex = indexPath.row
+                self.popupContentController?.setup()
+             })
+         } else if self.loggedLibrayInVC != nil {
+             self.loggedLibrayInVC?.addToRecentlyWatched(trackId: object.id ?? 0)
+             self.loggedLibrayInVC?.tabBarController?.presentPopupBar(withContentViewController: self.popupContentController!, animated: true, completion: {
                  self.popupContentController?.musicObject = musicObject
                  self.popupContentController!.musicArray = self.recentlyPlayedArrayMusic
                  self.popupContentController!.currentAudioIndex = indexPath.row
