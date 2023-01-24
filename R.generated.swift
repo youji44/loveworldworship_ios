@@ -821,7 +821,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
 
-  /// This `R.image` struct is generated, and contains static references to 268 images.
+  /// This `R.image` struct is generated, and contains static references to 269 images.
   struct image {
     /// Image `Bookmark`.
     static let bookmark = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bookmark")
@@ -1223,6 +1223,8 @@ struct R: Rswift.Validatable {
     static let ic_playerCancel = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_playerCancel")
     /// Image `ic_redHeart`.
     static let ic_redHeart = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_redHeart")
+    /// Image `ic_repeat_tap`.
+    static let ic_repeat_tap = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_repeat_tap")
     /// Image `ic_rocket`.
     static let ic_rocket = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_rocket")
     /// Image `ic_searchBig`.
@@ -2757,6 +2759,13 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "ic_redHeart", bundle: ..., traitCollection: ...)`
     static func ic_redHeart(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.ic_redHeart, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "ic_repeat_tap", bundle: ..., traitCollection: ...)`
+    static func ic_repeat_tap(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ic_repeat_tap, compatibleWith: traitCollection)
     }
     #endif
 
@@ -12551,6 +12560,7 @@ struct _R: Rswift.Validatable {
         if UIKit.UIImage(named: "ic_play", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_play' is used in storyboard 'Player', but couldn't be loaded.") }
         if UIKit.UIImage(named: "ic_playPlayer", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_playPlayer' is used in storyboard 'Player', but couldn't be loaded.") }
         if UIKit.UIImage(named: "ic_playerCancel", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_playerCancel' is used in storyboard 'Player', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "ic_repeat_tap", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_repeat_tap' is used in storyboard 'Player', but couldn't be loaded.") }
         if UIKit.UIImage(named: "ic_share", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_share' is used in storyboard 'Player', but couldn't be loaded.") }
         if UIKit.UIImage(named: "ic_star", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_star' is used in storyboard 'Player', but couldn't be loaded.") }
         if UIKit.UIImage(named: "ic_starPlayer", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_starPlayer' is used in storyboard 'Player', but couldn't be loaded.") }
