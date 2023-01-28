@@ -421,10 +421,12 @@ class MusicPlayerVC: BaseVC {
                 let time1 : Float = Float(seconds1)
                 progressSlider.minimumValue = 0
                 if time1.isNaN {
-                    let alert = UIAlertController(title: "Exception", message: "Something went wrong...", preferredStyle: .alert)
-                    let no = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-                    alert.addAction(no)
-                    self.present(alert, animated: true, completion: nil)
+                    let alert = UIAlertController(title: "Exception", message: "Duration getting nan.", preferredStyle: .alert)
+                    let yes = UIAlertAction(title: "Ok", style: .default) { (action) in
+                        self.isPaused = true
+                        AppInstance.instance.player?.pause()
+                    }
+                    alert.addAction(yes)
                     return
                 }
                 progressSlider.maximumValue = time1
