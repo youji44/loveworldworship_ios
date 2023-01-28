@@ -17,7 +17,6 @@
 				DEDF19FE86655642BF8F9B8D931F1F54 /* PBXTargetDependency */,
 			);
 			name = FBSDKLoginKit;
-			productName = FBSDKLoginKit;
 		};
 		210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */ = {
 			isa = PBXAggregateTarget;
@@ -27,7 +26,6 @@
 			dependencies = (
 			);
 			name = OneSignal;
-			productName = OneSignal;
 		};
 		230984053C6652DFF510F450F21C5CF7 /* R.swift */ = {
 			isa = PBXAggregateTarget;
@@ -38,7 +36,6 @@
 				6AFDA74A8FC502D98989351D5F3F945D /* PBXTargetDependency */,
 			);
 			name = R.swift;
-			productName = R.swift;
 		};
 		28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */ = {
 			isa = PBXAggregateTarget;
@@ -51,7 +48,6 @@
 				A0207ED3150DBA6BAF0B8F24296B7166 /* PBXTargetDependency */,
 			);
 			name = FBSDKCoreKit;
-			productName = FBSDKCoreKit;
 		};
 		458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */ = {
 			isa = PBXAggregateTarget;
@@ -62,7 +58,6 @@
 			dependencies = (
 			);
 			name = GoogleUserMessagingPlatform;
-			productName = GoogleUserMessagingPlatform;
 		};
 		479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */ = {
 			isa = PBXAggregateTarget;
@@ -74,7 +69,6 @@
 				75BBD7C09C8CE0712C48046B1B9FAC63 /* PBXTargetDependency */,
 			);
 			name = FBAEMKit;
-			productName = FBAEMKit;
 		};
 		84CA3424E172CD651235AF0783D01D39 /* razorpay-pod */ = {
 			isa = PBXAggregateTarget;
@@ -84,7 +78,6 @@
 			dependencies = (
 			);
 			name = "razorpay-pod";
-			productName = "razorpay-pod";
 		};
 		8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */ = {
 			isa = PBXAggregateTarget;
@@ -95,7 +88,6 @@
 			dependencies = (
 			);
 			name = FBSDKCoreKit_Basics;
-			productName = FBSDKCoreKit_Basics;
 		};
 		B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */ = {
 			isa = PBXAggregateTarget;
@@ -108,7 +100,6 @@
 				A8D18E5B6541E18069DDDF13354AF9C5 /* PBXTargetDependency */,
 			);
 			name = GoogleAppMeasurement;
-			productName = GoogleAppMeasurement;
 		};
 		CAD3534FC55B0333104E5117C0A9A324 /* GoogleSignIn */ = {
 			isa = PBXAggregateTarget;
@@ -121,7 +112,6 @@
 				E3682D4FED1F5DB16290508F73F2CCA2 /* PBXTargetDependency */,
 			);
 			name = GoogleSignIn;
-			productName = GoogleSignIn;
 		};
 		FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */ = {
 			isa = PBXAggregateTarget;
@@ -134,7 +124,6 @@
 				4B65497C992B012614214BFB257A382B /* PBXTargetDependency */,
 			);
 			name = "Google-Mobile-Ads-SDK";
-			productName = "Google-Mobile-Ads-SDK";
 		};
 /* End PBXAggregateTarget section */
 
@@ -1817,7 +1806,7 @@
 		080CEB10F7F83CD5550CC88A9FC4B750 /* TransitionButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionButton.debug.xcconfig; sourceTree = "<group>"; };
 		0830372B9A5C58765270C4E0D37942B3 /* OIDTokenUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenUtilities.h; path = Source/AppAuthCore/OIDTokenUtilities.h; sourceTree = "<group>"; };
 		088CDE9C06BDF62AC8DC7C06CB1926F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		08B81CCAB05FDC6681F15BDC4EB9C5D2 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = Sources/BraintreeDropIn/Resources/es.lproj; sourceTree = "<group>"; };
+		08B81CCAB05FDC6681F15BDC4EB9C5D2 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = Sources/BraintreeDropIn/Resources/es.lproj; sourceTree = "<group>"; };
 		08DA9FD1D4766FFEF70B3A2CAFF08A0F /* BTAPIClient_Internal_Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAPIClient_Internal_Category.h; path = Sources/BraintreeDropIn/BTAPIClient_Internal_Category.h; sourceTree = "<group>"; };
 		08DB237AC2CF38CB8253CD8CCF108A15 /* GradientDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientDirection.swift; path = SkeletonViewCore/Sources/API/Models/GradientDirection.swift; sourceTree = "<group>"; };
 		08DFD46161688068F124732DE8E99F78 /* BTUIKHipercardVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKHipercardVectorArtView.h; path = "Sources/BraintreeDropIn/Vector Art/BTUIKHipercardVectorArtView.h"; sourceTree = "<group>"; };
@@ -1839,13 +1828,13 @@
 		0CF794DC9FD3768B0204302C5A0DAB9D /* GradientDirection+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GradientDirection+Animations.swift"; path = "SkeletonViewCore/Sources/Internal/SkeletonExtensions/GradientDirection+Animations.swift"; sourceTree = "<group>"; };
 		0CFCCAC0CADFABC806AF6D9285CC0F5E /* BTUIKSwitchFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKSwitchFormField.h; path = Sources/BraintreeDropIn/Components/BTUIKSwitchFormField.h; sourceTree = "<group>"; };
 		0D0CCA6C109FFFADB58CEFAFBAA49780 /* SkeletonConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonConfig.swift; path = SkeletonViewCore/Sources/Internal/SkeletonConfigs/SkeletonConfig.swift; sourceTree = "<group>"; };
-		0D0D637EA2F94FC93B2E2F37C8FE70CA /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit.xcframework; path = XCFrameworks/FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
+		0D0D637EA2F94FC93B2E2F37C8FE70CA /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKCoreKit.xcframework; path = XCFrameworks/FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
 		0D2CDEC295F244EF4EFB1092E0D0BC4A /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
 		0D83239E872B36418613DC983F823594 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0D86C412FBD7ADBC25183DC18AF61D26 /* JGProgressHUDRingIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDRingIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDRingIndicatorView.h; sourceTree = "<group>"; };
 		0D98CF28319B72697BBD58146D445A21 /* FBAEMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBAEMKit.release.xcconfig; sourceTree = "<group>"; };
 		0DA305956588BE9FE39B1277BBE73B35 /* PVSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PVSwitch-prefix.pch"; sourceTree = "<group>"; };
-		0DD5C5F87420CE5CF58858667648DA7C /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurementIdentitySupport.xcframework; path = Frameworks/GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
+		0DD5C5F87420CE5CF58858667648DA7C /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleAppMeasurementIdentitySupport.xcframework; path = Frameworks/GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
 		0E11D329CE5C3FF0A791D9EFA9B8D7EB /* INSPhotosInteractionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosInteractionAnimator.swift; path = INSPhotoGallery/INSPhotosInteractionAnimator.swift; sourceTree = "<group>"; };
 		0E12F93AD573838CF6F09AC92C916991 /* GULNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GULNSData+zlib.m"; path = "GoogleUtilities/NSData+zlib/GULNSData+zlib.m"; sourceTree = "<group>"; };
 		0E2BD14549BEA949F7982E94614D780B /* AcceptSDKHttpConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKHttpConnection.swift; path = AcceptSDK/Network/AcceptSDKHttpConnection.swift; sourceTree = "<group>"; };
@@ -1921,7 +1910,7 @@
 		1AB2B7FCF3711A25F65308DD61A9161F /* GULLoggerCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerCodes.h; path = GoogleUtilities/Common/GULLoggerCodes.h; sourceTree = "<group>"; };
 		1B0CD67D37217F3F3825EFF1C7640F51 /* FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = Library/Core/FontResource.swift; sourceTree = "<group>"; };
 		1B809EF7584A19FDDBBBF32EBB84318A /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/SDAnimatedImageRep.h; sourceTree = "<group>"; };
-		1BA4541F9F7A6AE52FBA46CC60883C59 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = id.lproj; path = Sources/BraintreeDropIn/Resources/id.lproj; sourceTree = "<group>"; };
+		1BA4541F9F7A6AE52FBA46CC60883C59 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = Sources/BraintreeDropIn/Resources/id.lproj; sourceTree = "<group>"; };
 		1C19D47C6241DE7C3E83FAAB148A2A83 /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
 		1C6D5D67CF4C37BC5CC4E05953B7D4E1 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		1CCB29C52F32022272D254549A5D8673 /* R.swift.Library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "R.swift.Library-dummy.m"; sourceTree = "<group>"; };
@@ -1945,7 +1934,7 @@
 		21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReachabilitySwift; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21DC7F38662A1FBC557B4A8868C29603 /* CollectionSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionSkeleton.swift; path = SkeletonViewCore/Sources/Internal/Collections/CollectionSkeleton.swift; sourceTree = "<group>"; };
 		21E442F24C4B0D6577B8E007EF84A7E0 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
-		22264B62B5A2A09482292AE9297827B9 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "Sources/BraintreeDropIn/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
+		22264B62B5A2A09482292AE9297827B9 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Sources/BraintreeDropIn/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
 		226CC5527121DADEC7848241F1C61B40 /* OIDExternalUserAgentIOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDExternalUserAgentIOS.m; path = Source/AppAuth/iOS/OIDExternalUserAgentIOS.m; sourceTree = "<group>"; };
 		22D435ACB373E6C3433D54601EB6A0CA /* OIDAuthorizationResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationResponse.m; path = Source/AppAuthCore/OIDAuthorizationResponse.m; sourceTree = "<group>"; };
 		232BF183C07BFF07A5B78146DD3880E3 /* MarqueeLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.debug.xcconfig; sourceTree = "<group>"; };
@@ -1998,7 +1987,7 @@
 		2B6D0046E08DF65C5D706765246A3F2D /* BTApplePayClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTApplePayClient.h; path = Sources/BraintreeApplePay/Public/BraintreeApplePay/BTApplePayClient.h; sourceTree = "<group>"; };
 		2BB767D89C5AA250B2B816CD6536943C /* BTUIKBarButtonItem_Internal_Declaration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKBarButtonItem_Internal_Declaration.h; path = Sources/BraintreeDropIn/BTUIKBarButtonItem_Internal_Declaration.h; sourceTree = "<group>"; };
 		2BBC375CC8455C56AE54C6622AB92A75 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = Source/FadeTransition.swift; sourceTree = "<group>"; };
-		2BCB98C0E4545CEDEE4DA1A5EA75C582 /* CardinalMobile.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = CardinalMobile.xcframework; path = Frameworks/XCFrameworks/CardinalMobile.xcframework; sourceTree = "<group>"; };
+		2BCB98C0E4545CEDEE4DA1A5EA75C582 /* CardinalMobile.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CardinalMobile.xcframework; path = Frameworks/XCFrameworks/CardinalMobile.xcframework; sourceTree = "<group>"; };
 		2BDFBC06E6712A92ED207A340D30B66C /* EzPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-prefix.pch"; sourceTree = "<group>"; };
 		2C04CC7A357D4EBB420599784A3059BF /* BTAppContextSwitcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAppContextSwitcher.h; path = Sources/BraintreeCore/Public/BraintreeCore/BTAppContextSwitcher.h; sourceTree = "<group>"; };
 		2C58AC7852481AE09D1C802F9122363D /* SkeletonMultilinesLayerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonMultilinesLayerConfig.swift; path = SkeletonViewCore/Sources/Internal/SkeletonConfigs/SkeletonMultilinesLayerConfig.swift; sourceTree = "<group>"; };
@@ -2063,7 +2052,7 @@
 		3A507CFE12CDEB9A55C9EEF89D7E68D5 /* ExpyTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpyTableView.swift; path = ExpyTableView/Classes/ExpyTableView.swift; sourceTree = "<group>"; };
 		3A518C1DD2D6C1A46E6CBA104DFD4B5C /* SDWebImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageFrame.h; path = SDWebImage/SDWebImageFrame.h; sourceTree = "<group>"; };
 		3A53B4210C2F08409C732E2B130B7BB8 /* UITableView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UITableView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
-		3A92CE6C54AD874F82BCA29D41C8DB1B /* fr-CA.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "fr-CA.lproj"; path = "Sources/BraintreeDropIn/Resources/fr-CA.lproj"; sourceTree = "<group>"; };
+		3A92CE6C54AD874F82BCA29D41C8DB1B /* fr-CA.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "fr-CA.lproj"; path = "Sources/BraintreeDropIn/Resources/fr-CA.lproj"; sourceTree = "<group>"; };
 		3A9C3099F29B7BEDF86659DEAECDF769 /* BTUIKLargeUnionPayVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeUnionPayVectorArtView.h; path = "Sources/BraintreeDropIn/Vector Art/Large/BTUIKLargeUnionPayVectorArtView.h"; sourceTree = "<group>"; };
 		3AA5FE7BDAF6B029A9FDF254122EDB04 /* BTVaultManagementViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTVaultManagementViewController.h; path = Sources/BraintreeDropIn/BTVaultManagementViewController.h; sourceTree = "<group>"; };
 		3B05F71511A01686D18F269A705E0D5C /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
@@ -2098,7 +2087,7 @@
 		413F4B16EBE0EC50F373E80A2BA43ECA /* PVSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PVSwitch.modulemap; sourceTree = "<group>"; };
 		416F66B361C5C791A5884F32B2BD2A7F /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
 		417029DFB53CF74B307F22D6314C2A13 /* GTMAppAuthFetcherAuthorization+Keychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMAppAuthFetcherAuthorization+Keychain.h"; path = "GTMAppAuth/Sources/Public/GTMAppAuth/GTMAppAuthFetcherAuthorization+Keychain.h"; sourceTree = "<group>"; };
-		41909CD8AE3DF9ABEFB5012591EA2F08 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = Frameworks/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		41909CD8AE3DF9ABEFB5012591EA2F08 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleAppMeasurement.xcframework; path = Frameworks/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
 		41B4E18E6E66C96FEF9B7A9987248D83 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = ImageSlideshow/Classes/Core/SwiftSupport.swift; sourceTree = "<group>"; };
 		41C00925ED5FA20352609A20927B076B /* BTJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTJSON.m; path = Sources/BraintreeCore/BTJSON.m; sourceTree = "<group>"; };
 		423FA17101630E2DE3C4071F0ADE7255 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -2114,7 +2103,7 @@
 		44AEEC8AC4D0561808892CECE1714A13 /* ic_cross_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_cross_white@2x.png"; path = "ImageSlideshow/Assets/ic_cross_white@2x.png"; sourceTree = "<group>"; };
 		44C68ADC4264E3CBE88835769C477D7B /* YNTableViewExtenstion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNTableViewExtenstion.swift; path = YNExpandableCell/YNTableViewExtenstion.swift; sourceTree = "<group>"; };
 		44D2261280BAE333AEED4C0854153F54 /* BTPreferredPaymentMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPreferredPaymentMethods.m; path = Sources/BraintreeCore/BTPreferredPaymentMethods.m; sourceTree = "<group>"; };
-		4507D9926D284F8818674DF798D312DF /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ar.lproj; path = Sources/BraintreeDropIn/Resources/ar.lproj; sourceTree = "<group>"; };
+		4507D9926D284F8818674DF798D312DF /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = Sources/BraintreeDropIn/Resources/ar.lproj; sourceTree = "<group>"; };
 		4518516B942CCC9DC720AFD3AEA2943B /* BTThreeDSecureV2TextBoxCustomization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTThreeDSecureV2TextBoxCustomization.m; path = Sources/BraintreeThreeDSecure/V2UICustomization/BTThreeDSecureV2TextBoxCustomization.m; sourceTree = "<group>"; };
 		458AB49D79D74D8BB3D601DC68DB0E73 /* BTDropInLocalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDropInLocalization.h; path = Sources/BraintreeDropIn/Public/BraintreeDropIn/BTDropInLocalization.h; sourceTree = "<group>"; };
 		458E6F44C1FCFCA9A167B9442DA2807D /* NSURLSession+GULPromises.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+GULPromises.m"; path = "GoogleUtilities/Environment/URLSessionPromiseWrapper/NSURLSession+GULPromises.m"; sourceTree = "<group>"; };
@@ -2139,7 +2128,7 @@
 		496D643A921926E9B4D13493B987763A /* BTThreeDSecureLookup_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTThreeDSecureLookup_Internal.h; path = Sources/BraintreeThreeDSecure/BTThreeDSecureLookup_Internal.h; sourceTree = "<group>"; };
 		497BC609578EB4E497158088E6B3F6B6 /* PaystackCheckout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PaystackCheckout.modulemap; sourceTree = "<group>"; };
 		49809460D6707406F34BF5F693645480 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
-		498F8C86B986FADAE6F8A9699A42EE1B /* PPRiskMagnes.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = PPRiskMagnes.xcframework; path = Frameworks/XCFrameworks/PPRiskMagnes.xcframework; sourceTree = "<group>"; };
+		498F8C86B986FADAE6F8A9699A42EE1B /* PPRiskMagnes.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = PPRiskMagnes.xcframework; path = Frameworks/XCFrameworks/PPRiskMagnes.xcframework; sourceTree = "<group>"; };
 		4A1354A50B801A41CAEEF0A80275CFB7 /* FBLPromiseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromiseError.m; path = Sources/FBLPromises/FBLPromiseError.m; sourceTree = "<group>"; };
 		4A4FCF30753B4084298849764C6B66D1 /* BTUIKSecurityCodeFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKSecurityCodeFormField.m; path = Sources/BraintreeDropIn/Components/BTUIKSecurityCodeFormField.m; sourceTree = "<group>"; };
 		4A5247E5D1395CD6C6CE33520E314E88 /* BTEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTEnums.h; path = Sources/BraintreeCore/Public/BraintreeCore/BTEnums.h; sourceTree = "<group>"; };
@@ -2187,7 +2176,7 @@
 		501715E3926482B43E731D5DF06CF044 /* OIDTokenResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDTokenResponse.h; path = Source/AppAuthCore/OIDTokenResponse.h; sourceTree = "<group>"; };
 		501BCE0ECB81DDABF0B76BD276928856 /* SwiftyBeaver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyBeaver-Info.plist"; sourceTree = "<group>"; };
 		5031FAFF61B86DFC36E2225A03D3F2CC /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
-		504E38D1427FAACC517D1EAD8FD3381A /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = Sources/BraintreeDropIn/Resources/ko.lproj; sourceTree = "<group>"; };
+		504E38D1427FAACC517D1EAD8FD3381A /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = Sources/BraintreeDropIn/Resources/ko.lproj; sourceTree = "<group>"; };
 		508D567F4755AFF03477EFB171B49832 /* BTVenmoRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTVenmoRequest.h; path = Sources/BraintreeVenmo/Public/BraintreeVenmo/BTVenmoRequest.h; sourceTree = "<group>"; };
 		50AD27C5E3A68A1E7DB8CF09DAD86B70 /* BTDropInUIUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTDropInUIUtilities.m; path = Sources/BraintreeDropIn/BTDropInUIUtilities.m; sourceTree = "<group>"; };
 		50F3C69BD8BA84970B16EE61A34BB133 /* BTVaultedPaymentMethodsTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTVaultedPaymentMethodsTableViewCell.h; path = "Sources/BraintreeDropIn/Custom Views/BTVaultedPaymentMethodsTableViewCell.h"; sourceTree = "<group>"; };
@@ -2206,7 +2195,7 @@
 		533C7BFE9FB11EED0CEB793464448D1F /* AcceptSDKInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKInternal.swift; path = AcceptSDK/AcceptSDKInternal.swift; sourceTree = "<group>"; };
 		5343E720261F7B4FF29A6FD940D11E4B /* NibResource+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NibResource+UIKit.swift"; path = "Library/UIKit/NibResource+UIKit.swift"; sourceTree = "<group>"; };
 		53F752AD6FA3C9B4E1A961B3A7C2F031 /* GULNetworkConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkConstants.h; path = GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkConstants.h; sourceTree = "<group>"; };
-		546A65B8A7B87EE86CE4196B29837AB5 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = Sources/BraintreeDropIn/Resources/ru.lproj; sourceTree = "<group>"; };
+		546A65B8A7B87EE86CE4196B29837AB5 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = Sources/BraintreeDropIn/Resources/ru.lproj; sourceTree = "<group>"; };
 		547D155B8749240AACE61CE2132A70A7 /* BTPaymentFlowDriver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentFlowDriver.m; path = Sources/BraintreePaymentFlow/BTPaymentFlowDriver.m; sourceTree = "<group>"; };
 		54DCF98C91D629703972916C3FE128AE /* ApiClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiClient.swift; path = CheckoutSDK/Classes/ApiClient.swift; sourceTree = "<group>"; };
 		54EED78E724806478DD213FAE42A6127 /* StringResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringResource.swift; path = Library/Core/StringResource.swift; sourceTree = "<group>"; };
@@ -2292,7 +2281,7 @@
 		606FBD510D38EAE6392A316AA18D45EF /* BTCardFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCardFormViewController.h; path = Sources/BraintreeDropIn/BTCardFormViewController.h; sourceTree = "<group>"; };
 		60803989DB44618B2D955FF735BC6BBC /* PVSwitch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PVSwitch-Info.plist"; sourceTree = "<group>"; };
 		6086EAEFBCDF1CAC7B0764C37F6CF994 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
-		6089FBCD0B970C260C2BFC7A042752B7 /* zh-Hant-HK.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant-HK.lproj"; path = "Sources/BraintreeDropIn/Resources/zh-Hant-HK.lproj"; sourceTree = "<group>"; };
+		6089FBCD0B970C260C2BFC7A042752B7 /* zh-Hant-HK.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant-HK.lproj"; path = "Sources/BraintreeDropIn/Resources/zh-Hant-HK.lproj"; sourceTree = "<group>"; };
 		609DF656D4CCFCBF43B94D14D04E2BDA /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
 		60ADF663EAAE9C72E483EA517EE55CDE /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
 		60F01DDA15F8131DCC71E746F9FF8D3F /* GULReachabilityMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityMessageCode.h; path = GoogleUtilities/Reachability/GULReachabilityMessageCode.h; sourceTree = "<group>"; };
@@ -2380,7 +2369,7 @@
 		6D8A20156D0CF5207D6ED8ABDD9BE85F /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		6DD9278554412B7246176AC392B8DB7F /* BTThreeDSecureAdditionalInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTThreeDSecureAdditionalInformation.m; path = Sources/BraintreeThreeDSecure/BTThreeDSecureAdditionalInformation.m; sourceTree = "<group>"; };
 		6E37D561E846BB7B9FC829C8CBE626AD /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CheckoutSDK/Assets/Assets.xcassets; sourceTree = "<group>"; };
-		6E3B3F5E1784CABB98900FE62C2F3A87 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		6E3B3F5E1784CABB98900FE62C2F3A87 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMobileAds.xcframework; path = Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework; sourceTree = "<group>"; };
 		6E521A324FE7FF864BA4C75099C250E2 /* JGProgressHUDFadeZoomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeZoomAnimation.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDFadeZoomAnimation.h; sourceTree = "<group>"; };
 		6E73B295B94627D447963B97C54DF076 /* BTThreeDSecureV2ToolbarCustomization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTThreeDSecureV2ToolbarCustomization.h; path = Sources/BraintreeThreeDSecure/Public/BraintreeThreeDSecure/BTThreeDSecureV2ToolbarCustomization.h; sourceTree = "<group>"; };
 		6E9A1B6D0AA454F33D11F216B4547C73 /* BTPayPalVaultRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPayPalVaultRequest.h; path = Sources/BraintreePayPal/Public/BraintreePayPal/BTPayPalVaultRequest.h; sourceTree = "<group>"; };
@@ -2435,7 +2424,7 @@
 		77C36958C6C994F21C5030897E5EFE29 /* BTUIKCardExpiryFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCardExpiryFormat.h; path = Sources/BraintreeDropIn/Models/BTUIKCardExpiryFormat.h; sourceTree = "<group>"; };
 		7825AB3EF87A1059B449DCF5ADC3EDB5 /* OneSignal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneSignal.release.xcconfig; sourceTree = "<group>"; };
 		7859B88DBEF4D4DD4B1D9F96A2A3DD3E /* BTHTTPErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTHTTPErrors.m; path = Sources/BraintreeCore/BTHTTPErrors.m; sourceTree = "<group>"; };
-		786B0538D0A7D06C406166A3C42E8133 /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit_Basics.xcframework; path = XCFrameworks/FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
+		786B0538D0A7D06C406166A3C42E8133 /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKCoreKit_Basics.xcframework; path = XCFrameworks/FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
 		78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip-XLPagerTabStrip */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "XLPagerTabStrip-XLPagerTabStrip"; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7923F8AF8F425499EEAD1DA18046EA54 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/PassKit.framework; sourceTree = DEVELOPER_DIR; };
 		79984A2E2A9F55E0132BDB45A6535008 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
@@ -2445,7 +2434,7 @@
 		7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD0ACCBFC4B6C2635C1F17363AD5F9B /* JGProgressHUDImageIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDImageIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDImageIndicatorView.h; sourceTree = "<group>"; };
 		7AFD2348E23D091583F3ECA4F992D70B /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
-		7B17133F13B1D3D6D263D165C748D627 /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = th.lproj; path = Sources/BraintreeDropIn/Resources/th.lproj; sourceTree = "<group>"; };
+		7B17133F13B1D3D6D263D165C748D627 /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = th.lproj; path = Sources/BraintreeDropIn/Resources/th.lproj; sourceTree = "<group>"; };
 		7B6A248B271FD01B4A2C2CB43B157795 /* GULSecureCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSecureCoding.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULSecureCoding.h; sourceTree = "<group>"; };
 		7B9048DD25C1CA3FF728B8136E0BA936 /* EmptyDataSet-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EmptyDataSet-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		7C166CC37181A3532FB6D3620FC9EDEA /* Pods-DeepSoundiOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeepSoundiOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -2476,7 +2465,7 @@
 		80FDC4F8FFE958F63AB59580730AFF9D /* SwiftEventBus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftEventBus-prefix.pch"; sourceTree = "<group>"; };
 		81296E0FC58F3D6D1CEA6551608B93C3 /* GoogleAppMeasurement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAppMeasurement.release.xcconfig; sourceTree = "<group>"; };
 		812E1182BE4F7445B9C550DD32F64077 /* OIDExternalUserAgentRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentRequest.h; path = Source/AppAuthCore/OIDExternalUserAgentRequest.h; sourceTree = "<group>"; };
-		8173D52F3D1F38FDE5C3F852B53A64A7 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nb.lproj; path = Sources/BraintreeDropIn/Resources/nb.lproj; sourceTree = "<group>"; };
+		8173D52F3D1F38FDE5C3F852B53A64A7 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nb.lproj; path = Sources/BraintreeDropIn/Resources/nb.lproj; sourceTree = "<group>"; };
 		81FF812A154AB50B8AAD00308BB5D363 /* FBLPromise+Async.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Async.m"; path = "Sources/FBLPromises/FBLPromise+Async.m"; sourceTree = "<group>"; };
 		8245DBB263F5C836CF17E78B3ADD4254 /* BraintreeDropIn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BraintreeDropIn-dummy.m"; sourceTree = "<group>"; };
 		8302042F236C8C662F0DECCF2C25C7DA /* GoogleUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-umbrella.h"; sourceTree = "<group>"; };
@@ -2484,7 +2473,7 @@
 		8334119007EF5F5C29C33EF70A6A01DF /* AuthorizeNetAccept.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AuthorizeNetAccept.debug.xcconfig; sourceTree = "<group>"; };
 		8335200D4524B18D11E8D73AA91519A2 /* TransitionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-prefix.pch"; sourceTree = "<group>"; };
 		834CE94FF5F9186006C103355ABB061B /* UITableView+CollectionSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+CollectionSkeleton.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UITableView+CollectionSkeleton.swift"; sourceTree = "<group>"; };
-		83853786338492D2AD873913E868811D /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		83853786338492D2AD873913E868811D /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
 		83A4F9CB50B8FD9A6B70C6EC17F228F7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		83F0FABDF2285E31088F119E8DFD6F0C /* TransitionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionButton.swift; path = Source/TransitionButton.swift; sourceTree = "<group>"; };
 		83F8E54C2A6AB5A101CEF4A3BFC922C9 /* INSPhotoGalleryClose@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryClose@2x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose@2x.png"; sourceTree = "<group>"; };
@@ -2493,7 +2482,7 @@
 		84373285CCC79E306E2CC565F9C5601A /* BTUIKJCBVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKJCBVectorArtView.m; path = "Sources/BraintreeDropIn/Vector Art/BTUIKJCBVectorArtView.m"; sourceTree = "<group>"; };
 		84A34877EE4D1AEEB7E37D12F17AF6C4 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
 		84BAADC8165D9AAED741E246A658B12B /* BTUIKHiperVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKHiperVectorArtView.m; path = "Sources/BraintreeDropIn/Vector Art/BTUIKHiperVectorArtView.m"; sourceTree = "<group>"; };
-		84DD7FC1C867B25CF25E7930C4928B64 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = Sources/BraintreeDropIn/Resources/nl.lproj; sourceTree = "<group>"; };
+		84DD7FC1C867B25CF25E7930C4928B64 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = Sources/BraintreeDropIn/Resources/nl.lproj; sourceTree = "<group>"; };
 		855EB41CB01EE1DDB4856B91D67EB121 /* SwiftEventBus */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftEventBus; path = SwiftEventBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D193EC5FF3A235CE421C2363EB8DF3 /* EzPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EzPopup-dummy.m"; sourceTree = "<group>"; };
 		85D49B366F88EA0CAA1A2B3DC193B37B /* Pods-DeepSoundiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DeepSoundiOS.modulemap"; sourceTree = "<group>"; };
@@ -2523,7 +2512,7 @@
 		8A6D64BD6482A1A7601D13E0305D1EE3 /* BTUIKJCBVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKJCBVectorArtView.h; path = "Sources/BraintreeDropIn/Vector Art/BTUIKJCBVectorArtView.h"; sourceTree = "<group>"; };
 		8A9F33139AA9FFCCF58D3DEAAE24920F /* UIStoryboard+StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardResource.swift"; sourceTree = "<group>"; };
 		8B07DE9B94ECBE5C351BE58E8B23A9DF /* BTThreeDSecureV2ButtonCustomization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTThreeDSecureV2ButtonCustomization.h; path = Sources/BraintreeThreeDSecure/Public/BraintreeThreeDSecure/BTThreeDSecureV2ButtonCustomization.h; sourceTree = "<group>"; };
-		8B2C317413A1E1859A992C6DFC06872D /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FBSDKLoginKit.xcframework; path = XCFrameworks/FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
+		8B2C317413A1E1859A992C6DFC06872D /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKLoginKit.xcframework; path = XCFrameworks/FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
 		8B57406C882489307294E99C41811C40 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
 		8B5D06017142C16EE21D0EA943E5C10F /* BTHTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTHTTP.h; path = Sources/BraintreeCore/BTHTTP.h; sourceTree = "<group>"; };
 		8B7A360973104A849F1F1C412C8D18CF /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
@@ -2541,7 +2530,7 @@
 		8E7E17454C468D4AD16666E3AD004D09 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
 		8EAF2D4415C4AD82F30461AD8CCD91EF /* UINib+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINib+NibResource.swift"; path = "Library/UIKit/UINib+NibResource.swift"; sourceTree = "<group>"; };
 		8EE3D98B51B8CC0B325CA283ED6FA437 /* OIDRegistrationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDRegistrationRequest.m; path = Source/AppAuthCore/OIDRegistrationRequest.m; sourceTree = "<group>"; };
-		8EECFBC3E1779A8AC33373C9F84D1845 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_encode.c; sourceTree = "<group>"; };
+		8EECFBC3E1779A8AC33373C9F84D1845 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
 		8EF432B9D613498B80D7B442C656220E /* BTUIKCardType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCardType.h; path = Sources/BraintreeDropIn/Models/BTUIKCardType.h; sourceTree = "<group>"; };
 		8F04C51167B8C01F44E1B03D4F3FD01B /* BTUIKApplePayMarkVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKApplePayMarkVectorArtView.m; path = "Sources/BraintreeDropIn/Vector Art/BTUIKApplePayMarkVectorArtView.m"; sourceTree = "<group>"; };
 		8F5AB0BE71FA2D6C18366E17651213B8 /* Pods-DeepSoundiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeepSoundiOS-dummy.m"; sourceTree = "<group>"; };
@@ -2581,7 +2570,7 @@
 		961F0AC860DAD05302452C62E3737148 /* Pods-OneSignalNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneSignalNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
 		9636E478D5FB9BCC9B115A0D5ADA6601 /* INSPhotoGallery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSPhotoGallery.h; path = INSPhotoGallery/INSPhotoGallery.h; sourceTree = "<group>"; };
 		963744966AEE85E10ADC2FCAB8349026 /* FBLPromise+Race.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Race.h"; path = "Sources/FBLPromises/include/FBLPromise+Race.h"; sourceTree = "<group>"; };
-		96A307DF1DD43A297517C8B41AF13EFA /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sv.lproj; path = Sources/BraintreeDropIn/Resources/sv.lproj; sourceTree = "<group>"; };
+		96A307DF1DD43A297517C8B41AF13EFA /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sv.lproj; path = Sources/BraintreeDropIn/Resources/sv.lproj; sourceTree = "<group>"; };
 		972FAF5E5E64EC3E05AEC09779EBD3B0 /* UIColor+ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+ColorResource.swift"; path = "Library/UIKit/UIColor+ColorResource.swift"; sourceTree = "<group>"; };
 		9765AF7FB7B11C59A2F4F9A577D4D71E /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		9775080A7F888FA87EE528000DA102A1 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
@@ -2609,7 +2598,7 @@
 		9A7B728A3FC94C42765A502CFAF9C930 /* BTAuthenticationInsight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAuthenticationInsight.m; path = Sources/BraintreeCard/BTAuthenticationInsight.m; sourceTree = "<group>"; };
 		9A9F86FEBF750DE11CDC01C58F6A7E42 /* BTUIKVenmoMonogramCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKVenmoMonogramCardView.m; path = "Sources/BraintreeDropIn/Vector Art/BTUIKVenmoMonogramCardView.m"; sourceTree = "<group>"; };
 		9ACEEE4C0391DB4D8191B188C51DAD22 /* FBLPromise+Always.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Always.m"; path = "Sources/FBLPromises/FBLPromise+Always.m"; sourceTree = "<group>"; };
-		9B44DF53276D373E28211EDA74EBD064 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_common.c; sourceTree = "<group>"; };
+		9B44DF53276D373E28211EDA74EBD064 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
 		9B54870FF8D058BBCA0239EB3E978F40 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
 		9B601A5AD079EE8D909790EDF9EA07FC /* BTClientMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTClientMetadata.h; path = Sources/BraintreeCore/Public/BraintreeCore/BTClientMetadata.h; sourceTree = "<group>"; };
 		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2624,11 +2613,11 @@
 		9C636B50A6F603F43EC9D3A772EDB6FF /* HMSegmentedControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HMSegmentedControl-Info.plist"; sourceTree = "<group>"; };
 		9C9AD683E3ADA12EC884DF952C4BF505 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
 		9D035915D4610349255CF63557045569 /* YNExpandableCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNExpandableCell-umbrella.h"; sourceTree = "<group>"; };
-		9D52F7FE49CC264444FDE69D82168FFF /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = Sources/BraintreeDropIn/Resources/pt.lproj; sourceTree = "<group>"; };
+		9D52F7FE49CC264444FDE69D82168FFF /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = Sources/BraintreeDropIn/Resources/pt.lproj; sourceTree = "<group>"; };
 		9D5BF2942DEEA0A193A90F8BB7BC6E44 /* JGProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGProgressHUD.modulemap; sourceTree = "<group>"; };
 		9D61ECF6548FEA526F27F6D4F11E43A6 /* OIDScopeUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDScopeUtilities.h; path = Source/AppAuthCore/OIDScopeUtilities.h; sourceTree = "<group>"; };
 		9D7606954145C4D44562C8D7DBA4E97B /* BTThreeDSecureV2ToolbarCustomization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTThreeDSecureV2ToolbarCustomization.m; path = Sources/BraintreeThreeDSecure/V2UICustomization/BTThreeDSecureV2ToolbarCustomization.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9C5D8EC1A1B283BD034CC5D7D66288 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
 		9DAF85479B38B2F5C62FDD3B0A1FB49F /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
 		9E169CE37CBB2CF1BA5AFB47D91718CA /* YNExpandableCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YNExpandableCell.debug.xcconfig; sourceTree = "<group>"; };
@@ -2695,7 +2684,7 @@
 		A878AAE74E4334EDC8462A2FF8472A7E /* PanModalPresentationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationDelegate.swift; path = PanModal/Delegate/PanModalPresentationDelegate.swift; sourceTree = "<group>"; };
 		A8AA29CE0DF27FA91E54E303921AF923 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		A8C04CFC9C9ABCB656FF90C3C200A72F /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
-		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A939D13BBF63220D412E8FA898951422 /* BTUIKCardListLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCardListLabel.h; path = Sources/BraintreeDropIn/Components/BTUIKCardListLabel.h; sourceTree = "<group>"; };
 		A97FD3630CC037066AEFF127C3C70FBE /* SDWebImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageGIFCoder.h; path = SDWebImage/SDWebImageGIFCoder.h; sourceTree = "<group>"; };
 		A9A5A89B0D69AB52C337F9085BE8B24F /* PaystackCheckout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaystackCheckout-prefix.pch"; sourceTree = "<group>"; };
@@ -2736,7 +2725,7 @@
 		B03C2D9D45A5BA0B9AB872DD7985E28B /* SkeletonGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonGradient.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonGradient.swift; sourceTree = "<group>"; };
 		B04641C03BE22CF0EAA5F65F3FCDDEA3 /* GoogleSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleSignIn.release.xcconfig; sourceTree = "<group>"; };
 		B04C75535CA0B9A989E3EF03BB8A5CAA /* OIDClientMetadataParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDClientMetadataParameters.h; path = Source/AppAuthCore/OIDClientMetadataParameters.h; sourceTree = "<group>"; };
-		B070E0EC50C05BA468ED751C68BFEF21 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = Sources/BraintreeDropIn/Resources/de.lproj; sourceTree = "<group>"; };
+		B070E0EC50C05BA468ED751C68BFEF21 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = Sources/BraintreeDropIn/Resources/de.lproj; sourceTree = "<group>"; };
 		B08E82C8F7D5F6D2AA0B52DF90592B8C /* InputSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputSource.swift; path = ImageSlideshow/Classes/Core/InputSource.swift; sourceTree = "<group>"; };
 		B0900E216A44B4ECDF08CF0C067570CB /* BTApplePayClient_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTApplePayClient_Internal.h; path = Sources/BraintreeApplePay/BTApplePayClient_Internal.h; sourceTree = "<group>"; };
 		B0ABAB70B101D1495A401278ED933547 /* BTViewControllerPresentingDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTViewControllerPresentingDelegate.h; path = Sources/BraintreeCore/Public/BraintreeCore/BTViewControllerPresentingDelegate.h; sourceTree = "<group>"; };
@@ -2768,7 +2757,7 @@
 		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilities; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48E02C556E92E3341B7B1B6B3358AF7 /* GULURLSessionDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULURLSessionDataResponse.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULURLSessionDataResponse.h; sourceTree = "<group>"; };
 		B5080DD1E899EE6DBC843920B7C0B115 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		B5117989475ABABA510F78206450B1B5 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = Sources/BraintreeDropIn/Resources/fr.lproj; sourceTree = "<group>"; };
+		B5117989475ABABA510F78206450B1B5 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = Sources/BraintreeDropIn/Resources/fr.lproj; sourceTree = "<group>"; };
 		B58FF50A4BB0AD92ECABCF1078BC867A /* FBLPromise+Async.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Async.h"; path = "Sources/FBLPromises/include/FBLPromise+Async.h"; sourceTree = "<group>"; };
 		B5985EA127E88FDF9186FA850E2B0E71 /* BTUIKPaymentOptionCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKPaymentOptionCardView.h; path = Sources/BraintreeDropIn/Components/BTUIKPaymentOptionCardView.h; sourceTree = "<group>"; };
 		B6030DAD3063B0B41720DFA82DA84A48 /* BTUIKLargeDinersClubVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeDinersClubVectorArtView.h; path = "Sources/BraintreeDropIn/Vector Art/Large/BTUIKLargeDinersClubVectorArtView.h"; sourceTree = "<group>"; };
@@ -2783,7 +2772,7 @@
 		B756690C59CEDA8001F9443809F23EBD /* BraintreeApplePay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BraintreeApplePay.h; path = Sources/BraintreeApplePay/Public/BraintreeApplePay/BraintreeApplePay.h; sourceTree = "<group>"; };
 		B766AD6267A31CC3D52A66771B9AD9C4 /* ImageSlideshow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageSlideshow.debug.xcconfig; sourceTree = "<group>"; };
 		B80D5FC3458E0C6BEBF5B9D17A45A44E /* NSURLSession+GULPromises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+GULPromises.h"; path = "GoogleUtilities/Environment/Public/GoogleUtilities/NSURLSession+GULPromises.h"; sourceTree = "<group>"; };
-		B81A1D8306067D58E341C9FE7CF91BAB /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = Sources/BraintreeDropIn/Resources/ja.lproj; sourceTree = "<group>"; };
+		B81A1D8306067D58E341C9FE7CF91BAB /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = Sources/BraintreeDropIn/Resources/ja.lproj; sourceTree = "<group>"; };
 		B870D41360ACC7E4B9D4CD5956AC399D /* SheetTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SheetTransition.swift; path = FittedSheets/SheetTransition.swift; sourceTree = "<group>"; };
 		B8C07B6AED3E8A0A95E96F55B694EDC1 /* UIView+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Transitions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+Transitions.swift"; sourceTree = "<group>"; };
 		B8C99270BE42BBF85E2D31D3BBC83DB9 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
@@ -2847,13 +2836,13 @@
 		C59BBE2EE58E39420CA67C9CF7B64924 /* BTThreeDSecureRequest_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTThreeDSecureRequest_Internal.h; path = Sources/BraintreeThreeDSecure/BTThreeDSecureRequest_Internal.h; sourceTree = "<group>"; };
 		C5AEC5B8D4EFCD555B09EC0F9B049848 /* FBAEMKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBAEMKit-xcframeworks.sh"; sourceTree = "<group>"; };
 		C5E2441904DFA526B31C45EAF2F04459 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
-		C61B3BFB2CD987E5162DD1BDB2EAD86F /* FBAEMKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FBAEMKit.xcframework; path = XCFrameworks/FBAEMKit.xcframework; sourceTree = "<group>"; };
+		C61B3BFB2CD987E5162DD1BDB2EAD86F /* FBAEMKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAEMKit.xcframework; path = XCFrameworks/FBAEMKit.xcframework; sourceTree = "<group>"; };
 		C625C2F3D2A28D8803E363077F90837D /* GULSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSwizzler.m; path = GoogleUtilities/MethodSwizzler/GULSwizzler.m; sourceTree = "<group>"; };
 		C67B79521C6762CE523FFA153A85B6F3 /* BTAuthenticationInsight_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAuthenticationInsight_Internal.h; path = Sources/BraintreeCard/BTAuthenticationInsight_Internal.h; sourceTree = "<group>"; };
 		C6804027BCA3047CF3E179C97657990E /* OIDRegistrationResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDRegistrationResponse.m; path = Source/AppAuthCore/OIDRegistrationResponse.m; sourceTree = "<group>"; };
 		C6CF32205573BCB6738C5ABEE8AD0EBA /* UIView+SkeletonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SkeletonView.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+SkeletonView.swift"; sourceTree = "<group>"; };
 		C6EE7D943B53D55F8A065DD819544D42 /* GULHeartbeatDateStorageUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULHeartbeatDateStorageUserDefaults.m; path = GoogleUtilities/Environment/GULHeartbeatDateStorageUserDefaults.m; sourceTree = "<group>"; };
-		C701093842BD209D697B781A6949E7E3 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Sources/BraintreeDropIn/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		C701093842BD209D697B781A6949E7E3 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Sources/BraintreeDropIn/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
 		C70F26E610708EA39663016C25376D71 /* SDWebImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoderHelper.h; path = SDWebImage/SDWebImageCoderHelper.h; sourceTree = "<group>"; };
 		C7274697E73F06F9DBDE1ABC0D00D595 /* PanModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PanModal.modulemap; sourceTree = "<group>"; };
 		C742AF48477C67F90F8EF99C5EED55C9 /* BTUIKPayPalWordmarkCompactVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKPayPalWordmarkCompactVectorArtView.m; path = "Sources/BraintreeDropIn/Vector Art/BTUIKPayPalWordmarkCompactVectorArtView.m"; sourceTree = "<group>"; };
@@ -2865,7 +2854,7 @@
 		C82776D76C01289E9847B93F40F6A3BE /* BTPaymentSelectionHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentSelectionHeaderView.m; path = "Sources/BraintreeDropIn/Custom Views/BTPaymentSelectionHeaderView.m"; sourceTree = "<group>"; };
 		C82AC648E3787BDF8A9276533F4101DC /* BTUIKPayPalMonogramCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKPayPalMonogramCardView.h; path = "Sources/BraintreeDropIn/Vector Art/BTUIKPayPalMonogramCardView.h"; sourceTree = "<group>"; };
 		C82F38DD9D36EC7AC49ADDA89FFE536A /* XLPagerTabStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.release.xcconfig; sourceTree = "<group>"; };
-		C885F60EC9DF957BE2B673BEF0F76E06 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_decode.c; sourceTree = "<group>"; };
+		C885F60EC9DF957BE2B673BEF0F76E06 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
 		C8FDAE01AB2C80B0A2A0C11580D9AF9D /* BTJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTJSON.h; path = Sources/BraintreeCore/Public/BraintreeCore/BTJSON.h; sourceTree = "<group>"; };
 		C92629E9A5841A12C76B3426FA152755 /* BTErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTErrors.m; path = Sources/BraintreeCore/BTErrors.m; sourceTree = "<group>"; };
 		C9AE7C2F3C58DAEF00485B3AC0136F14 /* INSPhotoGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSPhotoGallery-dummy.m"; sourceTree = "<group>"; };
@@ -2924,7 +2913,7 @@
 		D4DFA8EF944F28C732410DF4E456D966 /* Bundle+Module.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Module.swift"; path = "ImageSlideshow/Classes/Core/Bundle+Module.swift"; sourceTree = "<group>"; };
 		D4E76013F9339523FBFB8DE21DE502C6 /* EmptyDataSetView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EmptyDataSetView+Extension.swift"; path = "EmptyDataSet-Swift/Sources/EmptyDataSetView+Extension.swift"; sourceTree = "<group>"; };
 		D5361163DC5F61D4F55991D21EC58C7D /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
-		D56260BA8F8CAF01425EEC5D93259E50 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = Sources/BraintreeDropIn/Resources/pl.lproj; sourceTree = "<group>"; };
+		D56260BA8F8CAF01425EEC5D93259E50 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = Sources/BraintreeDropIn/Resources/pl.lproj; sourceTree = "<group>"; };
 		D56BADD0B1AC6F77E346BC132F626EF4 /* Braintree-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Braintree-umbrella.h"; sourceTree = "<group>"; };
 		D57C1D35C8618B1D25EE6BED3EBFF3D0 /* BTGraphQLHTTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTGraphQLHTTP.m; path = Sources/BraintreeCore/BTGraphQLHTTP.m; sourceTree = "<group>"; };
 		D57F6323EB0308A0DFCBC718B68BC194 /* IQKeyboardManager+OrientationNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+OrientationNotification.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+OrientationNotification.swift"; sourceTree = "<group>"; };
@@ -2975,7 +2964,7 @@
 		DEFEDFB98466E47845784A161A8F376D /* BTThreeDSecureV1BrowserSwitchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTThreeDSecureV1BrowserSwitchHelper.h; path = Sources/BraintreeThreeDSecure/BTThreeDSecureV1BrowserSwitchHelper.h; sourceTree = "<group>"; };
 		DF05B1BAD571B59B15A3CAFF8C425345 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		DF2BB5B6B568E5E3EC7AEA324C4600DE /* BTUIKAmExVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKAmExVectorArtView.h; path = "Sources/BraintreeDropIn/Vector Art/BTUIKAmExVectorArtView.h"; sourceTree = "<group>"; };
-		DF327BC2331665FC7D3163D3C717BFB3 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = Sources/BraintreeDropIn/Resources/it.lproj; sourceTree = "<group>"; };
+		DF327BC2331665FC7D3163D3C717BFB3 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = Sources/BraintreeDropIn/Resources/it.lproj; sourceTree = "<group>"; };
 		DF5CA8F594771DA6B83659FE5CA1D328 /* Braintree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Braintree.debug.xcconfig; sourceTree = "<group>"; };
 		DF730D612B50B3AE5C65B7FE5F2E4910 /* ActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = ImageSlideshow/Classes/Core/ActivityIndicator.swift; sourceTree = "<group>"; };
 		DF7D38C7F2082C28D83AC199449B2B12 /* BTEnrollmentVerificationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTEnrollmentVerificationViewController.h; path = "Sources/BraintreeDropIn/Custom Views/BTEnrollmentVerificationViewController.h"; sourceTree = "<group>"; };
@@ -3020,7 +3009,7 @@
 		E80470D6EE44A68E3B6090299C5F41BB /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
 		E8085C14025E7FA2BB71B61100E501E7 /* ImageSlideshow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageSlideshow.release.xcconfig; sourceTree = "<group>"; };
 		E8087F9EF526B1862131C9C42C989047 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
-		E8312AC99037AD219AB7C138EE67E557 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = da.lproj; path = Sources/BraintreeDropIn/Resources/da.lproj; sourceTree = "<group>"; };
+		E8312AC99037AD219AB7C138EE67E557 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = da.lproj; path = Sources/BraintreeDropIn/Resources/da.lproj; sourceTree = "<group>"; };
 		E868AB7BC8FB94EB54636719B3C98119 /* GULNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetwork.h; path = GoogleUtilities/Network/Public/GoogleUtilities/GULNetwork.h; sourceTree = "<group>"; };
 		E8BEDA94033AAC3764DD073204661CDB /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDRingIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
 		E8D29FA4B6218DC74628AB1E4D087611 /* BTCardNonce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCardNonce.m; path = Sources/BraintreeCard/BTCardNonce.m; sourceTree = "<group>"; };
@@ -3078,7 +3067,7 @@
 		F2988DED00E0FBAB1938F9C6B9042EAC /* FBLPromise+Do.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Do.m"; path = "Sources/FBLPromises/FBLPromise+Do.m"; sourceTree = "<group>"; };
 		F2AB49467916CFB2E9711EC673E82678 /* BTUIKLargeHipercardVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeHipercardVectorArtView.m; path = "Sources/BraintreeDropIn/Vector Art/Large/BTUIKLargeHipercardVectorArtView.m"; sourceTree = "<group>"; };
 		F2D347A152DC389500B7ADE03E15D83F /* CALayer+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Animations.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/CALayer+Animations.swift"; sourceTree = "<group>"; };
-		F2E417327B154C6471C0E900312F2CD5 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Sources/BraintreeDropIn/Resources/en.lproj; sourceTree = "<group>"; };
+		F2E417327B154C6471C0E900312F2CD5 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Sources/BraintreeDropIn/Resources/en.lproj; sourceTree = "<group>"; };
 		F31BACA8162C4BF45AA39B12251C0926 /* AccepSDKtHttp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccepSDKtHttp.swift; path = AcceptSDK/Network/AccepSDKtHttp.swift; sourceTree = "<group>"; };
 		F43C84E579D0E73DF74AAF6370972ACD /* OIDErrorUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDErrorUtilities.h; path = Source/AppAuthCore/OIDErrorUtilities.h; sourceTree = "<group>"; };
 		F46C23BCA9774BA37E21BE0A5FFEE364 /* GULNetworkInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkInfo.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULNetworkInfo.h; sourceTree = "<group>"; };
@@ -3118,7 +3107,7 @@
 		FA7AB6C3BF89B77E443357F82C673ACA /* BTCardRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCardRequest.m; path = Sources/BraintreeCard/BTCardRequest.m; sourceTree = "<group>"; };
 		FA7F22C3CA29E5ADAD45C81739809E9A /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
 		FAABEF71182476645EEAE5F46FCD60BB /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
-		FAC52D570D1EFCEF010190DA29F426B7 /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = he.lproj; path = Sources/BraintreeDropIn/Resources/he.lproj; sourceTree = "<group>"; };
+		FAC52D570D1EFCEF010190DA29F426B7 /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = he.lproj; path = Sources/BraintreeDropIn/Resources/he.lproj; sourceTree = "<group>"; };
 		FAE5AA963EC025AB37F4E1DE018CAE05 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
 		FBC8DEEEA2F692B2DBBA199450D0704F /* HMSegmentedControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMSegmentedControl.release.xcconfig; sourceTree = "<group>"; };
 		FBD83FD147A6A0A6DC2C354F7D86FB61 /* JGProgressHUDPieIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDPieIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDPieIndicatorView.h; sourceTree = "<group>"; };
@@ -3548,6 +3537,7 @@
 				1F95804092ECF3A6511444B347748F59 /* Resources */,
 				44700DD556CA16AFD3DB651A81E7D1DE /* Support Files */,
 			);
+			name = INSPhotoGallery;
 			path = INSPhotoGallery;
 			sourceTree = "<group>";
 		};
@@ -3580,6 +3570,7 @@
 				03F17E38157D38C2DACDD21316648BE3 /* Frameworks */,
 				080C2A426425988F3010BBBF6690C5BF /* Support Files */,
 			);
+			name = FBSDKCoreKit_Basics;
 			path = FBSDKCoreKit_Basics;
 			sourceTree = "<group>";
 		};
@@ -3595,6 +3586,7 @@
 				03536F981B7173CA62A258E18A78CE6A /* Resources */,
 				62A9FF9851E6B9B70F2780708FADC9CD /* Support Files */,
 			);
+			name = YNExpandableCell;
 			path = YNExpandableCell;
 			sourceTree = "<group>";
 		};
@@ -3637,6 +3629,7 @@
 				83F0FABDF2285E31088F119E8DFD6F0C /* TransitionButton.swift */,
 				2148ED7ACA55110ED095D393DAB79074 /* Support Files */,
 			);
+			name = TransitionButton;
 			path = TransitionButton;
 			sourceTree = "<group>";
 		};
@@ -3646,6 +3639,7 @@
 				901C8B8976163CA0E12DDBA1E122C885 /* Frameworks */,
 				3F4F030E52E3D34F65C29DFE6B28C4E1 /* Support Files */,
 			);
+			name = FBSDKLoginKit;
 			path = FBSDKLoginKit;
 			sourceTree = "<group>";
 		};
@@ -3661,6 +3655,7 @@
 				588676CEC18AA9B5C73DFE01DA2D4B1C /* Resources */,
 				6FE9FC4566DAD11CF1B972E1E3B22F48 /* Support Files */,
 			);
+			name = PaystackCheckout;
 			path = PaystackCheckout;
 			sourceTree = "<group>";
 		};
@@ -3681,6 +3676,7 @@
 				22B71638B8B8F74686B49D79CA6BFC14 /* SDWebImage */,
 				AC77C2B027813568861323459933B1C4 /* Support Files */,
 			);
+			name = ImageSlideshow;
 			path = ImageSlideshow;
 			sourceTree = "<group>";
 		};
@@ -3728,6 +3724,7 @@
 				B6CE973B09ED08F7273AD024C8EA0CE2 /* PVSwitch.swift */,
 				76265B72828142E82A2893774C2D809A /* Support Files */,
 			);
+			name = PVSwitch;
 			path = PVSwitch;
 			sourceTree = "<group>";
 		};
@@ -3756,6 +3753,7 @@
 				51BAB58DDF89F1207B819871D4C98DA4 /* SWActionSheet.m */,
 				16F5D6B1F8327F0FC1FFA7364F1D13FA /* Support Files */,
 			);
+			name = "ActionSheetPicker-3.0";
 			path = "ActionSheetPicker-3.0";
 			sourceTree = "<group>";
 		};
@@ -3853,6 +3851,7 @@
 				E54134E2ECBC51E5E8402F8260A115DF /* Resources */,
 				8906C4EF8E418D40A759FD8D1CA64A43 /* Support Files */,
 			);
+			name = XLPagerTabStrip;
 			path = XLPagerTabStrip;
 			sourceTree = "<group>";
 		};
@@ -3878,6 +3877,7 @@
 				B7513DDED72497273395E1B2E26E82E5 /* PopupViewController.swift */,
 				BEF185AAD0BD0B778B78C7D68CBC2307 /* Support Files */,
 			);
+			name = EzPopup;
 			path = EzPopup;
 			sourceTree = "<group>";
 		};
@@ -4066,6 +4066,7 @@
 				05DCFF716FE19ACD9DCBC60C77855C27 /* ExternalUserAgent */,
 				1631FAD49E4A56CEF68AD19BAC5D9ED6 /* Support Files */,
 			);
+			name = AppAuth;
 			path = AppAuth;
 			sourceTree = "<group>";
 		};
@@ -4076,6 +4077,7 @@
 				C46D7C139E9ED52C1060C2909D9CDA02 /* Resources */,
 				BF192CA4A0874740FBF2C7E5CDF40AA3 /* Support Files */,
 			);
+			name = GoogleSignIn;
 			path = GoogleSignIn;
 			sourceTree = "<group>";
 		};
@@ -4160,6 +4162,7 @@
 				EB20A89C671A816F9375CEBB7AFC74F4 /* encode */,
 				37DC5AA1238BB53C0ADEE151CC7DFAFA /* Support Files */,
 			);
+			name = nanopb;
 			path = nanopb;
 			sourceTree = "<group>";
 		};
@@ -4223,6 +4226,7 @@
 				6882FD6E44E0B5EC8DAB14EFF0FCD067 /* Frameworks */,
 				F378A8BD248ED4B7846EC3FBB5299BD9 /* Support Files */,
 			);
+			name = OneSignal;
 			path = OneSignal;
 			sourceTree = "<group>";
 		};
@@ -4257,6 +4261,7 @@
 				7F6BE3E2B55C96876F3FD9658849818D /* HMSegmentedControl.m */,
 				22059E20092A7E8A4F09620C27A83506 /* Support Files */,
 			);
+			name = HMSegmentedControl;
 			path = HMSegmentedControl;
 			sourceTree = "<group>";
 		};
@@ -4321,6 +4326,7 @@
 				6488BF518CA976D6D1C67073112F5CFE /* JGProgressHUDSuccessIndicatorView.m */,
 				C17FC9E82163A1555943D1C8A64061D5 /* Support Files */,
 			);
+			name = JGProgressHUD;
 			path = JGProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -4392,6 +4398,7 @@
 				0F727A00BF22775767591296F570ED18 /* Validation.swift */,
 				209444C2394583E93FDEF4DE3D9A094E /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -4437,6 +4444,7 @@
 				4F35AF351E35B91C7AA6E6BE7E970447 /* Toast.swift */,
 				5F7A4D5A59690B99180EBA0373EA89BD /* Support Files */,
 			);
+			name = "Toast-Swift";
 			path = "Toast-Swift";
 			sourceTree = "<group>";
 		};
@@ -4452,6 +4460,7 @@
 				42D9A3A808F186DB722F235F694BC9C4 /* Reachability */,
 				92E66874A9F46F3496CBDB80CF404CBB /* Support Files */,
 			);
+			name = GoogleUtilities;
 			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
@@ -4526,6 +4535,7 @@
 				29C161D9195B3D146F82634CCE6EF36B /* Async.swift */,
 				CA14DE3A780D6D3BB94C25C0D1FE343B /* Support Files */,
 			);
+			name = AsyncSwift;
 			path = AsyncSwift;
 			sourceTree = "<group>";
 		};
@@ -4575,6 +4585,7 @@
 				BB0697F35C07EEE6B0CA04CFEFD1ABFD /* Validatable.swift */,
 				A48A34F85607C52860C52758FEC44B0D /* Support Files */,
 			);
+			name = R.swift.Library;
 			path = R.swift.Library;
 			sourceTree = "<group>";
 		};
@@ -4606,6 +4617,7 @@
 				C0FA0B8CA9A5ED696F67229E0F9788BB /* Resources */,
 				57210771443DA94913250A771F0F0BBE /* Support Files */,
 			);
+			name = DropDown;
 			path = DropDown;
 			sourceTree = "<group>";
 		};
@@ -4630,6 +4642,7 @@
 				4A6FF5A8E41C85A2EC2620735155E23D /* Frameworks */,
 				12DA8A4688431425FF3F7ED21A72D158 /* Support Files */,
 			);
+			name = "razorpay-pod";
 			path = "razorpay-pod";
 			sourceTree = "<group>";
 		};
@@ -4647,6 +4660,7 @@
 				A334E4FEC9612364E5B7B340C9229866 /* GTMOAuth2KeychainCompatibility.m */,
 				F5774ABFA4BE36AA304110FC4DFBAC23 /* Support Files */,
 			);
+			name = GTMAppAuth;
 			path = GTMAppAuth;
 			sourceTree = "<group>";
 		};
@@ -4769,6 +4783,7 @@
 				FEF3C688036D54985229E9AF5E124D8F /* Core */,
 				CEEF7361F2F6EC1545E197F965AD2116 /* Support Files */,
 			);
+			name = GTMSessionFetcher;
 			path = GTMSessionFetcher;
 			sourceTree = "<group>";
 		};
@@ -4899,6 +4914,7 @@
 				7E82443382D0A70211D79AF776B34544 /* Core */,
 				DEFA7575CC4B0228B4ACA90FAE4E8803 /* Support Files */,
 			);
+			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -4962,6 +4978,7 @@
 				A01B21E33679ABCB4F717EBDD320BF66 /* ViewController.swift */,
 				92711D7FF5C16BE2ACD0461555887DC1 /* Support Files */,
 			);
+			name = CircleProgressView;
 			path = CircleProgressView;
 			sourceTree = "<group>";
 		};
@@ -5031,6 +5048,7 @@
 				B8C07B6AED3E8A0A95E96F55B694EDC1 /* UIView+Transitions.swift */,
 				1B5FE6C862D858102FF97F7C21C0DC49 /* Support Files */,
 			);
+			name = SkeletonView;
 			path = SkeletonView;
 			sourceTree = "<group>";
 		};
@@ -5069,7 +5087,7 @@
 				C1D78A7F43807F49FDB5B04DD9BD6AC7 /* ImageSlideshow */,
 				C332967D484B2EE6DD22A3B3E4FE3345 /* INSPhotoGallery */,
 				76ECEA879395B4B4B0CD445E2E3606C3 /* INSPhotoGallery-INSPhotoGallery */,
-				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */,
 				7FBAFAA66E9C7401884F439AE8BC662C /* JGProgressHUD */,
 				CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel */,
 				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */,
@@ -5263,6 +5281,7 @@
 				CED47E2C4C598DF131E61151F3F89306 /* Resources */,
 				38110FCE2CFFF4242969A6A1FB0B71BB /* Support Files */,
 			);
+			name = BraintreeDropIn;
 			path = BraintreeDropIn;
 			sourceTree = "<group>";
 		};
@@ -5302,6 +5321,7 @@
 				455BBC3A842EF323BEFC1AF13065AB3C /* Frameworks */,
 				E7F346460303FCE53E04D611FA22D6A2 /* Support Files */,
 			);
+			name = FBSDKCoreKit;
 			path = FBSDKCoreKit;
 			sourceTree = "<group>";
 		};
@@ -5382,6 +5402,7 @@
 				4E34B04E3963ACF0F0A4B31BC1CEB5EF /* SwiftEventBus.swift */,
 				2C2B4195209A74558F9A3C648FFE47DB /* Support Files */,
 			);
+			name = SwiftEventBus;
 			path = SwiftEventBus;
 			sourceTree = "<group>";
 		};
@@ -5391,6 +5412,7 @@
 				84363CB5CE4F7929A353FCF2194A5871 /* Frameworks */,
 				5A95A9A8D47CD50B1997634E6985E232 /* Support Files */,
 			);
+			name = "Google-Mobile-Ads-SDK";
 			path = "Google-Mobile-Ads-SDK";
 			sourceTree = "<group>";
 		};
@@ -5454,6 +5476,7 @@
 				65D6B1F613DC6E98E45B114DF841D51F /* SecurePaymentContainerRequest.swift */,
 				C1A2CFD29BF16127BD4989456B44DCFD /* Support Files */,
 			);
+			name = AuthorizeNetAccept;
 			path = AuthorizeNetAccept;
 			sourceTree = "<group>";
 		};
@@ -5505,6 +5528,7 @@
 				F71A6160E98E6E4A77CF16DEF4212947 /* UITextField+fixCaretPosition.swift */,
 				45CF60A1F5E9B8408812DF3E4C002DA6 /* Support Files */,
 			);
+			name = SkyFloatingLabelTextField;
 			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
@@ -5545,6 +5569,7 @@
 				E06AA7E09145AAD64F0407A30071EA20 /* UIViewController+PanModalPresenter.swift */,
 				B9B6B857CC3828A63D2FA8298204AF8F /* Support Files */,
 			);
+			name = PanModal;
 			path = PanModal;
 			sourceTree = "<group>";
 		};
@@ -5643,6 +5668,7 @@
 				DC7C12941B99FB814BAE0649E77D7F57 /* Frameworks */,
 				ADDF1709E4A74C08E41125E23067C797 /* Support Files */,
 			);
+			name = FBAEMKit;
 			path = FBAEMKit;
 			sourceTree = "<group>";
 		};
@@ -5711,6 +5737,7 @@
 				9C25C19D85F358531171D2511765B29D /* SwiftyBeaver.swift */,
 				30B686FD16FC21C81B1CEDA93B2A5413 /* Support Files */,
 			);
+			name = SwiftyBeaver;
 			path = SwiftyBeaver;
 			sourceTree = "<group>";
 		};
@@ -5800,6 +5827,7 @@
 				C75B212BBD5ECDADC3E38F9D6FBB8EF1 /* MarqueeLabel.swift */,
 				AE69A177768DF9677A040CBB5403968A /* Support Files */,
 			);
+			name = MarqueeLabel;
 			path = MarqueeLabel;
 			sourceTree = "<group>";
 		};
@@ -5922,6 +5950,7 @@
 				EFCB06AE244D48B066823FC2A02D4641 /* FBLPromises.h */,
 				3ECBC790541FF4481471325DC713AA60 /* Support Files */,
 			);
+			name = PromisesObjC;
 			path = PromisesObjC;
 			sourceTree = "<group>";
 		};
@@ -5945,6 +5974,7 @@
 			children = (
 				B5D198980A7DFA891BC023FE91C38031 /* Support Files */,
 			);
+			name = R.swift;
 			path = R.swift;
 			sourceTree = "<group>";
 		};
@@ -5954,6 +5984,7 @@
 				8B57406C882489307294E99C41811C40 /* Reachability.swift */,
 				500F4A9857615151980E82A798C813AA /* Support Files */,
 			);
+			name = ReachabilitySwift;
 			path = ReachabilitySwift;
 			sourceTree = "<group>";
 		};
@@ -5985,6 +6016,7 @@
 				70F421670645F5665C85E9BD980996DB /* IQUIViewController+Additions.swift */,
 				404F080994CCC2FE8957156B3A34E5BB /* Support Files */,
 			);
+			name = IQKeyboardManagerSwift;
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
@@ -6046,6 +6078,7 @@
 				6A9DC01C211A7A96E2352E57DDBA0E24 /* UnionPay */,
 				25D578E44FF422949FF0E0F8766610C9 /* Venmo */,
 			);
+			name = Braintree;
 			path = Braintree;
 			sourceTree = "<group>";
 		};
@@ -6084,6 +6117,7 @@
 				E9D4F8F42614398F67FED8A72C2D3A32 /* Frameworks */,
 				9AA72228855D7589169204DB68581760 /* Support Files */,
 			);
+			name = GoogleUserMessagingPlatform;
 			path = GoogleUserMessagingPlatform;
 			sourceTree = "<group>";
 		};
@@ -6110,6 +6144,7 @@
 				5CBD413B369D5917C63B7313B279177C /* Support Files */,
 				F981ED68A0F1CFECEEC06379D8DF47BB /* WithoutAdIdSupport */,
 			);
+			name = GoogleAppMeasurement;
 			path = GoogleAppMeasurement;
 			sourceTree = "<group>";
 		};
@@ -6132,6 +6167,7 @@
 				D4E76013F9339523FBFB8DE21DE502C6 /* EmptyDataSetView+Extension.swift */,
 				2E63834BC78C5322B8E64841D10DD257 /* Support Files */,
 			);
+			name = "EmptyDataSet-Swift";
 			path = "EmptyDataSet-Swift";
 			sourceTree = "<group>";
 		};
@@ -6142,6 +6178,7 @@
 				3A507CFE12CDEB9A55C9EEF89D7E68D5 /* ExpyTableView.swift */,
 				B68C2B44A0C839FEAECA66B0E2C3EF25 /* Support Files */,
 			);
+			name = ExpyTableView;
 			path = ExpyTableView;
 			sourceTree = "<group>";
 		};
@@ -6164,6 +6201,7 @@
 				B3E99DA94DD71B29035D849EFA40FB2E /* Yalta.swift */,
 				919FFB57983BE3D5DF44BE8BB7CB0EF1 /* Support Files */,
 			);
+			name = FittedSheets;
 			path = FittedSheets;
 			sourceTree = "<group>";
 		};
@@ -7422,7 +7460,7 @@
 			);
 			name = IQKeyboardManagerSwift;
 			productName = IQKeyboardManagerSwift;
-			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */;
+			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */;
 			productType = "com.apple.product-type.framework";
 		};
 		B4CEB0284B4209C3EB1D2921056254BE /* HMSegmentedControl */ = {
@@ -7775,8 +7813,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 11.0";

@@ -420,7 +420,26 @@ class MusicPlayerVC: BaseVC {
                 let seconds1 : Float64 = CMTimeGetSeconds(currentTime1)
                 let time1 : Float = Float(seconds1)
                 progressSlider.minimumValue = 0
-                progressSlider.maximumValue = time1
+//                progressSlider.maximumValue = time1
+                
+                var urrrl: URL?
+                
+                if #available(iOS 11.0, *) {
+                    let currentItem = AppInstance.instance.player?.currentItem
+                    let asset = currentItem?.asset
+                    if let urlAsset = asset as? AVURLAsset {
+                        urrrl = urlAsset.url
+                    }
+                }
+                if let urrrl = urrrl {
+                    let audioURL = URL(string: "path/to/your/mp3file.mp3")
+                    let asset = AVAsset(url: urrrl)
+                    let duration = asset.duration
+                    let durationInSeconds = CMTimeGetSeconds(duration)
+                    print("Duration: \(durationInSeconds) seconds")
+                    print(duration)
+                }
+                
                 
                 //            let destination: DownloadRequest.Destination = { _, _ in
                 //                let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
