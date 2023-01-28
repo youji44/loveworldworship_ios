@@ -413,44 +413,50 @@ class MusicPlayerVC: BaseVC {
         }
         
         if((AppInstance.instance.player?.currentItem?.asset.duration) != nil){
-            if let _ = AppInstance.instance.player?.currentItem?.asset.duration{}else{return}
-            if let _ = AppInstance.instance.player?.currentItem?.currentTime(){}else{return}
-            let currentTime1 : CMTime = (AppInstance.instance.player?.currentItem?.asset.duration)!
-            let seconds1 : Float64 = CMTimeGetSeconds(currentTime1)
-            let time1 : Float = Float(seconds1)
-            progressSlider.minimumValue = 0
-            progressSlider.maximumValue = time1
-            
-//            let destination: DownloadRequest.Destination = { _, _ in
-//                let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-//                let fileURL = documentsURL.appendingPathComponent("audio.mp3")
-//
-//                return (fileURL, [.removePreviousFile, .createIntermediateDirectories])
-//            }
-//
-//            Alamofire.download("https://loveworldworship.com/worship/upload/audio/2022/10/Guky29712ydnVOVCNaP6_29_0f7dd1867cdcfbe7a38f30d01fc1be26_audio.mp3", to: destination).response { response in
-//                if response.error == nil, let fileURL = response.destinationURL {
-//                    let asset = AVAsset(url: fileURL)
-//                    let duration = CMTimeGetSeconds(asset.duration)
-//                    print("Audio duration is \(duration) seconds.")
-//                }
-//            }
-            
-//            if let ass = AppInstance.instance.player?.currentItem?.asset {
-//                guard let assetReader = try? AVAssetReader(asset: ass) else { return }
-//                let duration = Double(assetReader.asset.duration.value)
-//                let timescale = Double(assetReader.asset.duration.timescale)
-//                let totalDuration = duration / timescale
-//                print(totalDuration)
-//            } else {
-//                return
-//            }
-            let currentTime : CMTime = ((AppInstance.instance.player?.currentTime())!)
-            let seconds : Float64 = CMTimeGetSeconds(currentTime)
-            let time : Float = Float(seconds)
-            self.progressSlider.value = time
-            totalDurationLengthLabel.text =  self.formatTimeFromSeconds(totalSeconds: Int32(Float(Float64(CMTimeGetSeconds((AppInstance.instance.player?.currentItem?.asset.duration)!)))))
-            calculatedTimeLenghtLabel.text = self.formatTimeFromSeconds(totalSeconds: Int32(Float(Float64(CMTimeGetSeconds((AppInstance.instance.player?.currentItem?.currentTime())!)))))
+            if AppInstance.instance.player?.currentItem?.status == .readyToPlay {
+                if let _ = AppInstance.instance.player?.currentItem?.asset.duration{}else{return}
+                if let _ = AppInstance.instance.player?.currentItem?.currentTime(){}else{return}
+                let currentTime1 : CMTime = (AppInstance.instance.player?.currentItem?.asset.duration)!
+                let seconds1 : Float64 = CMTimeGetSeconds(currentTime1)
+                let time1 : Float = Float(seconds1)
+                progressSlider.minimumValue = 0
+                progressSlider.maximumValue = time1
+                
+                //            let destination: DownloadRequest.Destination = { _, _ in
+                //                let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+                //                let fileURL = documentsURL.appendingPathComponent("audio.mp3")
+                //
+                //                return (fileURL, [.removePreviousFile, .createIntermediateDirectories])
+                //            }
+                //
+                //            Alamofire.download("https://loveworldworship.com/worship/upload/audio/2022/10/Guky29712ydnVOVCNaP6_29_0f7dd1867cdcfbe7a38f30d01fc1be26_audio.mp3", to: destination).response { response in
+                //                if response.error == nil, let fileURL = response.destinationURL {
+                //                    let asset = AVAsset(url: fileURL)
+                //                    let duration = CMTimeGetSeconds(asset.duration)
+                //                    print("Audio duration is \(duration) seconds.")
+                //                }
+                //            }
+                
+                //            if let ass = AppInstance.instance.player?.currentItem?.asset {
+                //                guard let assetReader = try? AVAssetReader(asset: ass) else { return }
+                //                let duration = Double(assetReader.asset.duration.value)
+                //                let timescale = Double(assetReader.asset.duration.timescale)
+                //                let totalDuration = duration / timescale
+                //                print(totalDuration)
+                //            } else {
+                //                return
+                //            }
+                let currentTime : CMTime = ((AppInstance.instance.player?.currentTime())!)
+                let seconds : Float64 = CMTimeGetSeconds(currentTime)
+                let time : Float = Float(seconds)
+                self.progressSlider.value = time
+                totalDurationLengthLabel.text =  self.formatTimeFromSeconds(totalSeconds: Int32(Float(Float64(CMTimeGetSeconds((AppInstance.instance.player?.currentItem?.asset.duration)!)))))
+                calculatedTimeLenghtLabel.text = self.formatTimeFromSeconds(totalSeconds: Int32(Float(Float64(CMTimeGetSeconds((AppInstance.instance.player?.currentItem?.currentTime())!)))))
+            } else {
+                progressSlider.value = 0
+                progressSlider.minimumValue = 0
+                progressSlider.maximumValue = 0
+            }
         }else{
             progressSlider.value = 0
             progressSlider.minimumValue = 0
