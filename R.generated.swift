@@ -821,7 +821,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
 
-  /// This `R.image` struct is generated, and contains static references to 269 images.
+  /// This `R.image` struct is generated, and contains static references to 268 images.
   struct image {
     /// Image `Bookmark`.
     static let bookmark = Rswift.ImageResource(bundle: R.hostingBundle, name: "Bookmark")
@@ -1327,8 +1327,6 @@ struct R: Rswift.Validatable {
     static let playlist_Music = Rswift.ImageResource(bundle: R.hostingBundle, name: "playlist_Music")
     /// Image `repeat_s`.
     static let repeat_s = Rswift.ImageResource(bundle: R.hostingBundle, name: "repeat_s")
-    /// Image `repeat`.
-    static let `repeat` = Rswift.ImageResource(bundle: R.hostingBundle, name: "repeat")
     /// Image `send_img_ic`.
     static let send_img_ic = Rswift.ImageResource(bundle: R.hostingBundle, name: "send_img_ic")
     /// Image `send_msg_ic`.
@@ -3116,13 +3114,6 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "playlist_Music", bundle: ..., traitCollection: ...)`
     static func playlist_Music(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.playlist_Music, compatibleWith: traitCollection)
-    }
-    #endif
-
-    #if os(iOS) || os(tvOS)
-    /// `UIImage(named: "repeat", bundle: ..., traitCollection: ...)`
-    static func `repeat`(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
-      return UIKit.UIImage(resource: R.image.`repeat`, compatibleWith: traitCollection)
     }
     #endif
 
