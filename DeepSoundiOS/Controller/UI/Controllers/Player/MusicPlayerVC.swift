@@ -419,40 +419,23 @@ class MusicPlayerVC: BaseVC {
                 let currentTime1 : CMTime = (AppInstance.instance.player?.currentItem?.asset.duration)!
                 let seconds1 : Float64 = CMTimeGetSeconds(currentTime1)
                 let time1 : Float = Float(seconds1)
+                
+                let timeData = musicArray[currentAudioIndex].duration ?? "0"
+                let parts = timeData.split(separator: ":")
+                let hoursData = Int(parts[0])!
+                let minutesData = Int(parts[1])!
+                let secondsData = hoursData * 3600 + minutesData * 60
+                print(secondsData)
+                
+                
                 progressSlider.minimumValue = 0
-                if time1.isNaN {
-                    let alert = UIAlertController(title: "Exception", message: "Duration getting nan.", preferredStyle: .alert)
-                    let yes = UIAlertAction(title: "Ok", style: .default) { (action) in
-                        self.isPaused = true
-                        AppInstance.instance.player?.pause()
-                    }
-                    alert.addAction(yes)
-                    return
-                }
-                progressSlider.maximumValue = time1
-                
-                var urrrl: URL?
-                
-                if #available(iOS 11.0, *) {
-                    let currentItem = AppInstance.instance.player?.currentItem
-                    let asset = currentItem?.asset
-                    if let urlAsset = asset as? AVURLAsset {
-                        urrrl = urlAsset.url
-                    }
-                }
-                if let urrrl = urrrl {
-                    let asset = AVAsset(url: urrrl)
-                    let duration = asset.duration
-                    let durationInSeconds = CMTimeGetSeconds(duration)
-                    print("Duration: \(durationInSeconds) seconds")
-                    print(duration)
-                }
+                progressSlider.maximumValue = Float(secondsData)
                 
                 let currentTime : CMTime = ((AppInstance.instance.player?.currentTime())!)
                 let seconds : Float64 = CMTimeGetSeconds(currentTime)
                 let time : Float = Float(seconds)
                 self.progressSlider.value = time
-                totalDurationLengthLabel.text =  self.formatTimeFromSeconds(totalSeconds: Int32(Float(Float64(CMTimeGetSeconds((AppInstance.instance.player?.currentItem?.asset.duration)!)))))
+                totalDurationLengthLabel.text =  self.formatTimeFromSeconds(totalSeconds: Int32(Float(secondsData)))
                 calculatedTimeLenghtLabel.text = self.formatTimeFromSeconds(totalSeconds: Int32(Float(Float64(CMTimeGetSeconds((AppInstance.instance.player?.currentItem?.currentTime())!)))))
             } else {
                 progressSlider.value = 0
