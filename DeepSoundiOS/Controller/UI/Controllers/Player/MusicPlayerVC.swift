@@ -429,7 +429,7 @@ class MusicPlayerVC: BaseVC {
                 
                 
                 progressSlider.minimumValue = 0
-                progressSlider.maximumValue = Float(secondsData)
+                progressSlider.maximumValue = Float(totalData)
                 
                 let currentTime : CMTime = ((AppInstance.instance.player?.currentTime())!)
                 let seconds : Float64 = CMTimeGetSeconds(currentTime)
