@@ -420,12 +420,12 @@ class MusicPlayerVC: BaseVC {
                 let seconds1 : Float64 = CMTimeGetSeconds(currentTime1)
                 let time1 : Float = Float(seconds1)
                 
-                let timeData = musicArray[currentAudioIndex].duration ?? "0"
+                let timeData = musicObject?.duration ?? "0:0"
                 let parts = timeData.split(separator: ":")
-                let hoursData = Int(parts[0])!
-                let minutesData = Int(parts[1])!
-                let secondsData = hoursData * 3600 + minutesData * 60
-                print(secondsData)
+                let minutesData = Int(parts[0])!
+                let secondsData = Int(parts[1])!
+                let totalData = minutesData * 60 + secondsData
+                print(totalData)
                 
                 
                 progressSlider.minimumValue = 0
@@ -435,7 +435,7 @@ class MusicPlayerVC: BaseVC {
                 let seconds : Float64 = CMTimeGetSeconds(currentTime)
                 let time : Float = Float(seconds)
                 self.progressSlider.value = time
-                totalDurationLengthLabel.text =  self.formatTimeFromSeconds(totalSeconds: Int32(Float(secondsData)))
+                totalDurationLengthLabel.text =  self.formatTimeFromSeconds(totalSeconds: Int32(Float(totalData)))
                 calculatedTimeLenghtLabel.text = self.formatTimeFromSeconds(totalSeconds: Int32(Float(Float64(CMTimeGetSeconds((AppInstance.instance.player?.currentItem?.currentTime())!)))))
             } else {
                 progressSlider.value = 0
