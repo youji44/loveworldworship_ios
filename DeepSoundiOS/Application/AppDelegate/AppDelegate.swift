@@ -109,10 +109,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate,OSSubscriptionObserver {
         /*
          Uncomment all these to set seperately and comment setServerDataWithKey before uncommenting it
          */
-        
-//        ServerCredentials.setBaseUrl(url: <#T##String#>)  to set Your webURL seperateLy
-//         ServerCredentials.setServerKey(url: <#T##String#>) to set your App server key seperatelu
-//         ServerCredentials.setPurchaseCode(url: <#T##String#>) to set your Purchase code
+        // to set Your webURL seperateLy
+        ServerCredentials.setBaseUrl(url: "https://loveworldworship.com/worship/")
+        // to set your App server key seperatelu
+        ServerCredentials.setServerKey(serverKey: "f03f0d97d6c4af62148c6cd9f27044a0f6594640")
+        // to set your Purchase code
+        ServerCredentials.setPurchaseCode(purchaseCode: "b8cee1a6-4125-4a67-95f4-99a20153a79a")
         
         /* Init Swifty Beaver */
         let console = ConsoleDestination()
