@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9Dp-C3-DC9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9Dp-C3-DC9">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -137,6 +137,10 @@
                                     <constraint firstAttribute="trailing" secondItem="T5Y-Vt-nZs" secondAttribute="trailing" id="oNB-FI-DXi"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TW0-N5-1re">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="m5q-Ja-n0U"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -144,11 +148,15 @@
                         <constraints>
                             <constraint firstItem="sYU-z2-IRo" firstAttribute="leading" secondItem="m5q-Ja-n0U" secondAttribute="leading" id="3bN-0R-Cg3"/>
                             <constraint firstItem="amh-JM-shc" firstAttribute="trailing" secondItem="m5q-Ja-n0U" secondAttribute="trailing" id="9Nk-wX-IDY"/>
+                            <constraint firstItem="TW0-N5-1re" firstAttribute="leading" secondItem="m5q-Ja-n0U" secondAttribute="leading" id="EyU-8b-N3o"/>
+                            <constraint firstItem="TW0-N5-1re" firstAttribute="top" secondItem="ctG-QP-uAD" secondAttribute="top" id="Xpy-xB-xKm"/>
                             <constraint firstItem="amh-JM-shc" firstAttribute="top" secondItem="m5q-Ja-n0U" secondAttribute="top" constant="10" id="YOR-5a-MpN"/>
                             <constraint firstItem="sYU-z2-IRo" firstAttribute="bottom" secondItem="m5q-Ja-n0U" secondAttribute="bottom" constant="-47" id="Yfo-zt-d3W"/>
                             <constraint firstItem="sYU-z2-IRo" firstAttribute="trailing" secondItem="m5q-Ja-n0U" secondAttribute="trailing" id="b28-zd-xzx"/>
                             <constraint firstItem="amh-JM-shc" firstAttribute="leading" secondItem="m5q-Ja-n0U" secondAttribute="leading" id="e1C-Y1-fSG"/>
+                            <constraint firstItem="m5q-Ja-n0U" firstAttribute="bottom" secondItem="TW0-N5-1re" secondAttribute="bottom" id="gDj-go-LJU"/>
                             <constraint firstItem="sYU-z2-IRo" firstAttribute="top" secondItem="amh-JM-shc" secondAttribute="bottom" id="ura-pL-bt8"/>
+                            <constraint firstItem="m5q-Ja-n0U" firstAttribute="trailing" secondItem="TW0-N5-1re" secondAttribute="trailing" id="xHs-s4-A3c"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Library" id="YdT-Q7-ooH">
@@ -161,6 +169,7 @@
                         <outlet property="chatBtn" destination="oPu-gQ-LKC" id="lYx-0z-zHX"/>
                         <outlet property="libraryTableView" destination="sYU-z2-IRo" id="PPy-JI-eEx"/>
                         <outlet property="titleLabel" destination="YdT-Q7-ooH" id="Yry-S7-4Sy"/>
+                        <outlet property="viewAlbumss" destination="TW0-N5-1re" id="Xte-8n-6uG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ias-mm-JnR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -528,11 +537,11 @@
             </objects>
             <point key="canvasLocation" x="1028" y="400"/>
         </scene>
-        <!--Library-->
+        <!--Albums-->
         <scene sceneID="cVR-rp-r11">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="uTE-sQ-8FO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Library" image="ic-playlists-tb" selectedImage="ic-playlist-tb-selected" id="FSF-v9-QdD">
+                    <tabBarItem key="tabBarItem" title="Albums" image="ic-playlists-tb" selectedImage="ic-playlist-tb-selected" id="FSF-v9-QdD">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                         <color key="badgeColor" red="1" green="0.50980392156862742" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
@@ -1055,6 +1064,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="rfK-C6-lT6"/>
                     <connections>
+                        <outlet property="heightSegmentsss" destination="jQ1-i0-yE6" id="C6F-lL-Pas"/>
                         <outlet property="segmentedControl" destination="V72-EZ-f5P" id="qzy-IH-BX8"/>
                         <outlet property="tableView" destination="Em8-Ck-s1V" id="WnA-Fb-aNS"/>
                         <outlet property="titleLabel" destination="rfK-C6-lT6" id="MLJ-sV-Ck1"/>

@@ -38,6 +38,14 @@ class Dashboard1VC: BaseVC {
     private var refreshControl = UIRefreshControl()
     var type:DashboardActionType = .suggested
     
+    var typeFromLibrary:DashboardActionType? {
+        didSet {
+            self.type = typeFromLibrary ?? .suggested
+        }
+    }
+    var fromLibraryVC = false
+    @IBOutlet weak var heightSegmentsss: NSLayoutConstraint!
+    
     var isloading = true
     
     let segmentedControls = HMSegmentedControl(sectionTitles: [
@@ -94,18 +102,21 @@ class Dashboard1VC: BaseVC {
         
        
         navigationController?.setNavigationBarHidden(true, animated: false)
-        segmentedControls.selectionStyle = HMSegmentedControlSelectionStyle.fullWidthStripe
-        segmentedControls.segmentWidthStyle = .dynamic
-        segmentedControls.selectionIndicatorLocation = .bottom
-        segmentedControls.selectionIndicatorColor = UIColor.ButtonColor
-        segmentedControls.titleTextAttributes = [NSAttributedString.Key.font:R.font.urbanistMedium(size: 14)]
-        segmentedControls.selectedTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.ButtonColor]
-        segmentedControls.isUserDraggable = true
-        segmentedControls.verticalDividerWidth = 1.0
-        segmentedControls.selectionIndicatorHeight = 2
-        segmentedControls.frame = CGRect(x: 0, y: 5, width: self.view.frame.width, height: self.segmentedControl.frame.height)
-        segmentedControls.addTarget(self, action: #selector(segmentedControlChangedValue(segmentedControl:)), for: .valueChanged)
-        self.segmentedControl.addSubview(segmentedControls)
+        heightSegmentsss.constant = fromLibraryVC ? 1 : 42
+        if !fromLibraryVC {
+            segmentedControls.selectionStyle = HMSegmentedControlSelectionStyle.fullWidthStripe
+            segmentedControls.segmentWidthStyle = .dynamic
+            segmentedControls.selectionIndicatorLocation = .bottom
+            segmentedControls.selectionIndicatorColor = UIColor.ButtonColor
+            segmentedControls.titleTextAttributes = [NSAttributedString.Key.font:R.font.urbanistMedium(size: 14)]
+            segmentedControls.selectedTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.ButtonColor]
+            segmentedControls.isUserDraggable = true
+            segmentedControls.verticalDividerWidth = 1.0
+            segmentedControls.selectionIndicatorHeight = 2
+            segmentedControls.frame = CGRect(x: 0, y: 5, width: self.view.frame.width, height: self.segmentedControl.frame.height)
+            segmentedControls.addTarget(self, action: #selector(segmentedControlChangedValue(segmentedControl:)), for: .valueChanged)
+            self.segmentedControl.addSubview(segmentedControls)
+        }
     }
 
     

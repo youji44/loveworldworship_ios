@@ -122,6 +122,7 @@ PODS:
   - PaystackCheckout (0.1.1):
     - Alamofire
   - PromisesObjC (2.1.1)
+  - PureLayout (3.1.8)
   - PVSwitch (1.0.1)
   - R.swift (6.0.0):
     - R.swift.Library (~> 5.3.0)
@@ -165,6 +166,7 @@ DEPENDENCIES:
   - OneSignal (< 3.0, >= 2.6.2)
   - PanModal
   - PaystackCheckout (~> 0.1)
+  - PureLayout (= 3.1.8)
   - PVSwitch
   - R.swift (= 6.0.0)
   - razorpay-pod (= 1.1.16)
@@ -216,6 +218,7 @@ SPEC REPOS:
     - PanModal
     - PaystackCheckout
     - PromisesObjC
+    - PureLayout
     - PVSwitch
     - R.swift
     - R.swift.Library
@@ -267,6 +270,7 @@ SPEC CHECKSUMS:
   PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
   PaystackCheckout: 2f19b7bc908e99b8ecc9031316d295ee47044caf
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  PureLayout: a4afb3d79dd958564ce33d22c89f407280d8e6a8
   PVSwitch: b92d92b2ee725f815824217fcc0fb4d60948f978
   R.swift: 5ec056f5ba2744de1c3f6deeb4882ae2630f6e63
   R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
@@ -282,6 +286,6 @@ SPEC CHECKSUMS:
   XLPagerTabStrip: 63166e21c9844fa30f2d95d30f335e73be5caf22
   YNExpandableCell: f71457eddc5f2d607de5a2aef545325b0b7622e4
 
-PODFILE CHECKSUM: 93d8a7e6b99e4cfb750b4db4d6f60599889b8545
+PODFILE CHECKSUM: 1c454d95dac96bbc2f937e63d75d3cdb7ed46332
 
 COCOAPODS: 1.11.3

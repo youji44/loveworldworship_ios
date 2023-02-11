@@ -44,7 +44,7 @@ pod 'razorpay-pod','1.1.16'
 pod 'EmptyDataSet-Swift', '~> 5.0.0'
 pod 'PaystackCheckout', '~> 0.1'
 pod 'AuthorizeNetAccept'
-
+pod "PureLayout", '3.1.8'
 
 #pod 'Stripe'
 pod 'PanModal'
