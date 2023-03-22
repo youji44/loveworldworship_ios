@@ -9,28 +9,28 @@ PODS:
     - AppAuth/Core
   - AsyncSwift (2.0.4)
   - AuthorizeNetAccept (0.5.0)
-  - Braintree (5.19.0):
-    - Braintree/Card (= 5.19.0)
-    - Braintree/Core (= 5.19.0)
-    - Braintree/PayPal (= 5.19.0)
-  - Braintree/ApplePay (5.19.0):
+  - Braintree (5.20.1):
+    - Braintree/Card (= 5.20.1)
+    - Braintree/Core (= 5.20.1)
+    - Braintree/PayPal (= 5.20.1)
+  - Braintree/ApplePay (5.20.1):
     - Braintree/Core
-  - Braintree/Card (5.19.0):
+  - Braintree/Card (5.20.1):
     - Braintree/Core
-  - Braintree/Core (5.19.0)
-  - Braintree/PaymentFlow (5.19.0):
-    - Braintree/Core
-    - Braintree/PayPalDataCollector
-  - Braintree/PayPal (5.19.0):
+  - Braintree/Core (5.20.1)
+  - Braintree/PaymentFlow (5.20.1):
     - Braintree/Core
     - Braintree/PayPalDataCollector
-  - Braintree/PayPalDataCollector (5.19.0)
-  - Braintree/ThreeDSecure (5.19.0):
+  - Braintree/PayPal (5.20.1):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - Braintree/PayPalDataCollector (5.20.1)
+  - Braintree/ThreeDSecure (5.20.1):
     - Braintree/Card
     - Braintree/PaymentFlow
-  - Braintree/UnionPay (5.19.0):
+  - Braintree/UnionPay (5.20.1):
     - Braintree/Card
-  - Braintree/Venmo (5.19.0):
+  - Braintree/Venmo (5.20.1):
     - Braintree/Core
   - BraintreeDropIn (9.8.0):
     - Braintree/ApplePay (~> 5.19)
@@ -45,33 +45,33 @@ PODS:
   - EmptyDataSet-Swift (5.0.0)
   - ExpyTableView (1.2.1)
   - EzPopup (1.2.4)
-  - FBAEMKit (15.1.0):
-    - FBSDKCoreKit_Basics (= 15.1.0)
-  - FBSDKCoreKit (15.1.0):
-    - FBAEMKit (= 15.1.0)
-    - FBSDKCoreKit_Basics (= 15.1.0)
-  - FBSDKCoreKit_Basics (15.1.0)
-  - FBSDKLoginKit (15.1.0):
-    - FBSDKCoreKit (= 15.1.0)
+  - FBAEMKit (16.0.0):
+    - FBSDKCoreKit_Basics (= 16.0.0)
+  - FBSDKCoreKit (16.0.0):
+    - FBAEMKit (= 16.0.0)
+    - FBSDKCoreKit_Basics (= 16.0.0)
+  - FBSDKCoreKit_Basics (16.0.0)
+  - FBSDKLoginKit (16.0.0):
+    - FBSDKCoreKit (= 16.0.0)
   - FittedSheets (2.5.3)
-  - Google-Mobile-Ads-SDK (9.14.0):
+  - Google-Mobile-Ads-SDK (10.0.0):
     - GoogleAppMeasurement (< 11.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleAppMeasurement (10.3.0):
-    - GoogleAppMeasurement/AdIdSupport (= 10.3.0)
+  - GoogleAppMeasurement (10.5.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.5.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
     - GoogleUtilities/MethodSwizzler (~> 7.8)
     - GoogleUtilities/Network (~> 7.8)
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
     - nanopb (< 2.30910.0, >= 2.30908.0)
-  - GoogleAppMeasurement/AdIdSupport (10.3.0):
-    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.3.0)
+  - GoogleAppMeasurement/AdIdSupport (10.5.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.5.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
     - GoogleUtilities/MethodSwizzler (~> 7.8)
     - GoogleUtilities/Network (~> 7.8)
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
     - nanopb (< 2.30910.0, >= 2.30908.0)
-  - GoogleAppMeasurement/WithoutAdIdSupport (10.3.0):
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.5.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
     - GoogleUtilities/MethodSwizzler (~> 7.8)
     - GoogleUtilities/Network (~> 7.8)
@@ -117,7 +117,6 @@ PODS:
     - nanopb/encode (= 2.30909.0)
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
-  - OneSignal (2.16.7)
   - PanModal (1.2.7)
   - PaystackCheckout (0.1.1):
     - Alamofire
@@ -163,7 +162,6 @@ DEPENDENCIES:
   - IQKeyboardManagerSwift
   - JGProgressHUD
   - MarqueeLabel
-  - OneSignal (< 3.0, >= 2.6.2)
   - PanModal
   - PaystackCheckout (~> 0.1)
   - PureLayout (= 3.1.8)
@@ -214,7 +212,6 @@ SPEC REPOS:
     - JGProgressHUD
     - MarqueeLabel
     - nanopb
-    - OneSignal
     - PanModal
     - PaystackCheckout
     - PromisesObjC
@@ -240,20 +237,20 @@ SPEC CHECKSUMS:
   AppAuth: 8fca6b5563a5baef2c04bee27538025e4ceb2add
   AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
   AuthorizeNetAccept: 410bbacc7ffb37a3e17d5d4e7e65251b318f426d
-  Braintree: 3435ba74ed613a92cd7f8c0ac9b032b5e9d56683
+  Braintree: 4a27d741d164591ac87cecfaa9a02adb8eb92422
   BraintreeDropIn: 19d75b5aa0798224fa0501f9b362af54514b0736
   CircleProgressView: 6b5b091d59dc5e5d2fda84e637a40498cdc39937
   DropDown: f225ff0fd09dde064d17aa03db7e4d4e4ff40b6b
   EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
   ExpyTableView: 19cf224c2ff04b1ec215ec52bc4ba6f81fa809ed
   EzPopup: 37f2c40e8ce50412a269bfba365baa7085c28002
-  FBAEMKit: c7f82b5145d446bcbbcd50485c032689032fc6a2
-  FBSDKCoreKit: 7542746fc63a2a38dd6a865eeb54268341f37b83
-  FBSDKCoreKit_Basics: 92d6b26c0bed30ab09bbdd96dccaa26e6c9978d1
-  FBSDKLoginKit: 4e275d30cf90e92bdf3a7c82857a8642abf23037
+  FBAEMKit: 7fb5a0b5caf2ed2900e29c3a17de92ea7193a247
+  FBSDKCoreKit: 2a77418391aaa5da38ebf57b90b6de42cebcce6a
+  FBSDKCoreKit_Basics: 65c5b3146f38705b95338b54f68ea086bcc468dd
+  FBSDKLoginKit: 1a0deda07b1136beb0d468bf154393de6c16e291
   FittedSheets: c22df4c06036515f247951fa174912e8a65c8ce4
-  Google-Mobile-Ads-SDK: 4fe6304b771f8467d29978cb790ec1e56e646946
-  GoogleAppMeasurement: c7d6fff39bf2d829587d74088d582e32d75133c3
+  Google-Mobile-Ads-SDK: 02b68fc1dd65d011dd5e61e204a7d0cee79b8a85
+  GoogleAppMeasurement: 40c70a7d89013f0eca72006c4b9732163ea4cdae
   GoogleSignIn: a62edd0516721d2a3db1259a5681b91f9b41c06a
   GoogleUserMessagingPlatform: 5f8b30daf181805317b6b985bb51c1ff3beca054
   GoogleUtilities: c2bdc4cf2ce786c4d2e6b3bcfd599a25ca78f06f
@@ -266,7 +263,6 @@ SPEC CHECKSUMS:
   JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
   MarqueeLabel: 02f5ac8fd6877c94564556cb93fa86c70c08baeb
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
-  OneSignal: 67a3cf1d1edf2a9c22ba846e8d2eee2bf8cdb525
   PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
   PaystackCheckout: 2f19b7bc908e99b8ecc9031316d295ee47044caf
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
@@ -286,6 +282,6 @@ SPEC CHECKSUMS:
   XLPagerTabStrip: 63166e21c9844fa30f2d95d30f335e73be5caf22
   YNExpandableCell: f71457eddc5f2d607de5a2aef545325b0b7622e4
 
-PODFILE CHECKSUM: 1c454d95dac96bbc2f937e63d75d3cdb7ed46332
+PODFILE CHECKSUM: e741987d1c2a1f3b363b3438a6ab1baff5d45fbc
 
 COCOAPODS: 1.11.3

@@ -36,6 +36,7 @@
 		30B8B4A2276CCA7F0049CD40 /* EventTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B8B4A0276CCA7F0049CD40 /* EventTableCell.xib */; };
 		30B8B4A6276CCE1F0049CD40 /* EventsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B8B4A4276CCE1F0049CD40 /* EventsCollectionCell.swift */; };
 		30B8B4A7276CCE1F0049CD40 /* EventsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B8B4A5276CCE1F0049CD40 /* EventsCollectionCell.xib */; };
+		3C3D9E8B4C1DDF4510129948 /* Pods_DeepSoundiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511254E29EE8ABFF45D40170 /* Pods_DeepSoundiOS.framework */; };
 		51032E3D2493BF240062354F /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51032E3C2493BF240062354F /* Chat.storyboard */; };
 		51032E3F2493C0590062354F /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51032E3E2493C0590062354F /* ChatModel.swift */; };
 		51032E412493C09E0062354F /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51032E402493C09E0062354F /* ChatManager.swift */; };
@@ -242,8 +243,6 @@
 		523A47C022D3ADFA002A23EB /* Activities_TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 523A47BE22D3ADFA002A23EB /* Activities_TableCell.xib */; };
 		523A47C222D3B304002A23EB /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A47C122D3B304002A23EB /* UserInfoManager.swift */; };
 		523A47C422D3B318002A23EB /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A47C322D3B318002A23EB /* UserInfoModel.swift */; };
-		523C360C22C3B4270036FFD5 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C360B22C3B4270036FFD5 /* NotificationService.swift */; };
-		523C361022C3B4270036FFD5 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 523C360922C3B4270036FFD5 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		523C361722C3BFE20036FFD5 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C361622C3BFE20036FFD5 /* AppSettings.swift */; };
 		523C361922C3C1A20036FFD5 /* SecurityPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C361822C3C1A20036FFD5 /* SecurityPopupVC.swift */; };
 		523C361B22C3C6AF0036FFD5 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C361A22C3C6AF0036FFD5 /* BaseModel.swift */; };
@@ -429,7 +428,6 @@
 		52FFDD4E226375AE004D58CE /* IntroItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FFDD4C226375AE004D58CE /* IntroItemView.xib */; };
 		52FFDD4F226375AE004D58CE /* IntroItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FFDD4D226375AE004D58CE /* IntroItem.swift */; };
 		52FFDD51226375DC004D58CE /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FFDD50226375DC004D58CE /* GetStartedVC.swift */; };
-		544489839DAC872507D51591 /* Pods_DeepSoundiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C32F2BB925A6A887CAE2EDD /* Pods_DeepSoundiOSTests.framework */; };
 		8E10236D28FC7E6A00538A90 /* InfoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E10236C28FC7E6A00538A90 /* InfoListVC.swift */; };
 		8E24277728FEF72400F30F1C /* PremiumSubcriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24277528FEF72400F30F1C /* PremiumSubcriptionCell.swift */; };
 		8E24277828FEF72400F30F1C /* PremiumSubcriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E24277628FEF72400F30F1C /* PremiumSubcriptionCell.xib */; };
@@ -486,6 +484,7 @@
 		8EF70F88290281D80058E084 /* PaymentOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF70F86290281D80058E084 /* PaymentOptionCell.xib */; };
 		8EF70F8B290281FA0058E084 /* AddNewCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF70F89290281FA0058E084 /* AddNewCardCell.swift */; };
 		8EF70F8C290281FA0058E084 /* AddNewCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF70F8A290281FA0058E084 /* AddNewCardCell.xib */; };
+		8F83290CE2F626CD5DC3BAA5 /* Pods_DeepSoundiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4140DC3A057A2BD0AF95884F /* Pods_DeepSoundiOSUITests.framework */; };
 		AB2898F2276C859200AEFBA5 /* Products.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2898F1276C859200AEFBA5 /* Products.storyboard */; };
 		AB2898F5276C9FFE00AEFBA5 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2898F4276C9FFE00AEFBA5 /* ProductsVC.swift */; };
 		AB2898FA276CA3CF00AEFBA5 /* productHeadrItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2898F8276CA3CF00AEFBA5 /* productHeadrItem.swift */; };
@@ -505,9 +504,6 @@
 		ABF56911276CD473002EE007 /* EventDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF56910276CD473002EE007 /* EventDetailVC.swift */; };
 		ABF56914276CD4ED002EE007 /* EventDetailTableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF56912276CD4ED002EE007 /* EventDetailTableItem.swift */; };
 		ABF56915276CD4ED002EE007 /* EventDetailTableItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF56913276CD4ED002EE007 /* EventDetailTableItem.xib */; };
-		B87C5F05B9745B1B875E4228 /* Pods_DeepSoundiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E6E86A4C9ABFFE8C608C94 /* Pods_DeepSoundiOSUITests.framework */; };
-		C929C5225958D473CA0BE83D /* Pods_DeepSoundiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9315817B0EAD71B1DA23B509 /* Pods_DeepSoundiOS.framework */; };
-		DABD39684947DCB1F6542E89 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671C55CB46DE702472C4ACA /* Pods_OneSignalNotificationServiceExtension.framework */; };
 		EA20068C2789B821008B6F01 /* Stations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA20068B2789B821008B6F01 /* Stations.storyboard */; };
 		EA20068F2789B853008B6F01 /* StationsFullVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA20068E2789B853008B6F01 /* StationsFullVC.swift */; };
 		EA2006932789B88D008B6F01 /* StationsTableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2006912789B88D008B6F01 /* StationsTableItem.swift */; };
@@ -550,25 +546,12 @@
 		EAC3C465278C4C0C0046988B /* SelectTimeZoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3C464278C4C0C0046988B /* SelectTimeZoneVC.swift */; };
 		EADEB14E2790619600460711 /* ProductTableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEB14C2790619600460711 /* ProductTableItem.swift */; };
 		EADEB14F2790619600460711 /* ProductTableItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = EADEB14D2790619600460711 /* ProductTableItem.xib */; };
+		F07790FFBA25E2F24269A0D9 /* Pods_DeepSoundiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBAE004B209A9BC5B8709E3 /* Pods_DeepSoundiOSTests.framework */; };
 		F9DCFD8B29759F4100AA225E /* Liked_TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9DCFD8929759F4000AA225E /* Liked_TableCell.xib */; };
 		F9DCFD8C29759F4100AA225E /* Liked_TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCFD8A29759F4000AA225E /* Liked_TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17F8F01F2943218200221BD1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52AFA3282305F2420090FB13 /* LNPopupController.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 39DB52E41B5823330061C589;
-			remoteInfo = LNPopupController;
-		};
-		523C360E22C3B4270036FFD5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52B474ED22613719006B881F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 523C360822C3B4270036FFD5;
-			remoteInfo = OneSignalNotificationServiceExtension;
-		};
 		52AFA32C2305F2440090FB13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 52AFA3282305F2420090FB13 /* LNPopupController.xcodeproj */;
@@ -606,7 +589,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				523C361022C3B4270036FFD5 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,8 +608,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		06290949097A5FCF734F913A /* Pods-DeepSoundiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOSUITests/Pods-DeepSoundiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		10883D938CBDDEF900A89E76 /* Pods-DeepSoundiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOS.release.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOS/Pods-DeepSoundiOS.release.xcconfig"; sourceTree = "<group>"; };
+		07AB7456DEB8EB169D0FA362 /* Pods-DeepSoundiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOSUITests/Pods-DeepSoundiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3039E5B32786DE81004C4005 /* CashFreePopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFreePopUpVC.swift; sourceTree = "<group>"; };
 		3039E5B52786EDD1004C4005 /* PaystackPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaystackPopupVC.swift; sourceTree = "<group>"; };
 		3039E5B72786EF7B004C4005 /* CreditCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardVC.swift; sourceTree = "<group>"; };
@@ -657,6 +638,9 @@
 		30B8B4A0276CCA7F0049CD40 /* EventTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableCell.xib; sourceTree = "<group>"; };
 		30B8B4A4276CCE1F0049CD40 /* EventsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCollectionCell.swift; sourceTree = "<group>"; };
 		30B8B4A5276CCE1F0049CD40 /* EventsCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsCollectionCell.xib; sourceTree = "<group>"; };
+		3557011ADB3011C8BDCFE1F1 /* Pods-DeepSoundiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOSTests/Pods-DeepSoundiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4140DC3A057A2BD0AF95884F /* Pods_DeepSoundiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepSoundiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0E2052EA2AC50FB13A6043 /* Pods-DeepSoundiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOSTests.release.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOSTests/Pods-DeepSoundiOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		51032E3C2493BF240062354F /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		51032E3E2493C0590062354F /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		51032E402493C09E0062354F /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
@@ -665,6 +649,7 @@
 		510AC106249F83DB00E822D2 /* Album.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Album.storyboard; sourceTree = "<group>"; };
 		510AC10C249F893100E822D2 /* ChatSenderTableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSenderTableItem.swift; sourceTree = "<group>"; };
 		510AC10D249F893100E822D2 /* ChatSenderTableItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatSenderTableItem.xib; sourceTree = "<group>"; };
+		511254E29EE8ABFF45D40170 /* Pods_DeepSoundiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepSoundiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		511D2A02240EAF23003FA567 /* LoginPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPopupVC.swift; sourceTree = "<group>"; };
 		511D2A04240EB534003FA567 /* NotLoggedInBrowseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotLoggedInBrowseVC.swift; sourceTree = "<group>"; };
 		512684842490048900095FA6 /* SettingsTwoFactorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTwoFactorVC.swift; sourceTree = "<group>"; };
@@ -864,7 +849,6 @@
 		523A47BE22D3ADFA002A23EB /* Activities_TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Activities_TableCell.xib; sourceTree = "<group>"; };
 		523A47C122D3B304002A23EB /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
 		523A47C322D3B318002A23EB /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
-		523C360922C3B4270036FFD5 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		523C360B22C3B4270036FFD5 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		523C360D22C3B4270036FFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		523C361622C3BFE20036FFD5 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
@@ -1063,8 +1047,7 @@
 		52FFDD4C226375AE004D58CE /* IntroItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroItemView.xib; sourceTree = "<group>"; };
 		52FFDD4D226375AE004D58CE /* IntroItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroItem.swift; sourceTree = "<group>"; };
 		52FFDD50226375DC004D58CE /* GetStartedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
-		74E6E86A4C9ABFFE8C608C94 /* Pods_DeepSoundiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepSoundiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		852BA337B7F8C561C9F6A9FC /* Pods-DeepSoundiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOS.debug.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOS/Pods-DeepSoundiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		82753E2B82E4DA80F1AA8D92 /* Pods-DeepSoundiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOS.debug.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOS/Pods-DeepSoundiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8E10236C28FC7E6A00538A90 /* InfoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListVC.swift; sourceTree = "<group>"; };
 		8E24277528FEF72400F30F1C /* PremiumSubcriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumSubcriptionCell.swift; sourceTree = "<group>"; };
 		8E24277628FEF72400F30F1C /* PremiumSubcriptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PremiumSubcriptionCell.xib; sourceTree = "<group>"; };
@@ -1120,8 +1103,7 @@
 		8EF70F86290281D80058E084 /* PaymentOptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentOptionCell.xib; sourceTree = "<group>"; };
 		8EF70F89290281FA0058E084 /* AddNewCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCardCell.swift; sourceTree = "<group>"; };
 		8EF70F8A290281FA0058E084 /* AddNewCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewCardCell.xib; sourceTree = "<group>"; };
-		9315817B0EAD71B1DA23B509 /* Pods_DeepSoundiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepSoundiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C32F2BB925A6A887CAE2EDD /* Pods_DeepSoundiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepSoundiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBAE004B209A9BC5B8709E3 /* Pods_DeepSoundiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepSoundiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2898F1276C859200AEFBA5 /* Products.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Products.storyboard; sourceTree = "<group>"; };
 		AB2898F4276C9FFE00AEFBA5 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		AB2898F8276CA3CF00AEFBA5 /* productHeadrItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productHeadrItem.swift; sourceTree = "<group>"; };
@@ -1141,10 +1123,7 @@
 		ABF56910276CD473002EE007 /* EventDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailVC.swift; sourceTree = "<group>"; };
 		ABF56912276CD4ED002EE007 /* EventDetailTableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailTableItem.swift; sourceTree = "<group>"; };
 		ABF56913276CD4ED002EE007 /* EventDetailTableItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventDetailTableItem.xib; sourceTree = "<group>"; };
-		AD61ED6ACFFFF181AD92FEE0 /* Pods-DeepSoundiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOSTests.release.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOSTests/Pods-DeepSoundiOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		B585ED732EA950900DE2847C /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
-		B671C55CB46DE702472C4ACA /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE1A92D9A3A569AC9B7783EB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		BD66E32D5B7B83A47BAE4F23 /* Pods-DeepSoundiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOS.release.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOS/Pods-DeepSoundiOS.release.xcconfig"; sourceTree = "<group>"; };
 		EA20068B2789B821008B6F01 /* Stations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stations.storyboard; sourceTree = "<group>"; };
 		EA20068E2789B853008B6F01 /* StationsFullVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsFullVC.swift; sourceTree = "<group>"; };
 		EA2006912789B88D008B6F01 /* StationsTableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsTableItem.swift; sourceTree = "<group>"; };
@@ -1188,21 +1167,12 @@
 		EAC3C464278C4C0C0046988B /* SelectTimeZoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeZoneVC.swift; sourceTree = "<group>"; };
 		EADEB14C2790619600460711 /* ProductTableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableItem.swift; sourceTree = "<group>"; };
 		EADEB14D2790619600460711 /* ProductTableItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableItem.xib; sourceTree = "<group>"; };
-		EFF891691BA985F9B01F9EEB /* Pods-DeepSoundiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOSTests/Pods-DeepSoundiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0E03DD7303129F527EAB255 /* Pods-DeepSoundiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOSUITests/Pods-DeepSoundiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9DCFD8929759F4000AA225E /* Liked_TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Liked_TableCell.xib; sourceTree = "<group>"; };
 		F9DCFD8A29759F4000AA225E /* Liked_TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Liked_TableCell.swift; sourceTree = "<group>"; };
-		FB683DAA495D7CCA9C4CEBFE /* Pods-DeepSoundiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSoundiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-DeepSoundiOSUITests/Pods-DeepSoundiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		523C360622C3B4270036FFD5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DABD39684947DCB1F6542E89 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		52B474F222613719006B881F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1219,7 +1189,7 @@
 				52FE3E3523982F20008164CA /* SafariServices.framework in Frameworks */,
 				304B250A27832D3A0033CD6A /* CFSDK.xcframework in Frameworks */,
 				52AFA32E2305F2600090FB13 /* LNPopupController.framework in Frameworks */,
-				C929C5225958D473CA0BE83D /* Pods_DeepSoundiOS.framework in Frameworks */,
+				3C3D9E8B4C1DDF4510129948 /* Pods_DeepSoundiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1227,7 +1197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				544489839DAC872507D51591 /* Pods_DeepSoundiOSTests.framework in Frameworks */,
+				F07790FFBA25E2F24269A0D9 /* Pods_DeepSoundiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1235,7 +1205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B87C5F05B9745B1B875E4228 /* Pods_DeepSoundiOSUITests.framework in Frameworks */,
+				8F83290CE2F626CD5DC3BAA5 /* Pods_DeepSoundiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2881,7 +2851,6 @@
 				52B474F522613719006B881F /* DeepSoundiOS.app */,
 				52B4750C2261371C006B881F /* DeepSoundiOSTests.xctest */,
 				52B475172261371C006B881F /* DeepSoundiOSUITests.xctest */,
-				523C360922C3B4270036FFD5 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3290,14 +3259,12 @@
 		9262E3FF8D184A6E8ECE3DEC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				852BA337B7F8C561C9F6A9FC /* Pods-DeepSoundiOS.debug.xcconfig */,
-				10883D938CBDDEF900A89E76 /* Pods-DeepSoundiOS.release.xcconfig */,
-				EFF891691BA985F9B01F9EEB /* Pods-DeepSoundiOSTests.debug.xcconfig */,
-				AD61ED6ACFFFF181AD92FEE0 /* Pods-DeepSoundiOSTests.release.xcconfig */,
-				06290949097A5FCF734F913A /* Pods-DeepSoundiOSUITests.debug.xcconfig */,
-				FB683DAA495D7CCA9C4CEBFE /* Pods-DeepSoundiOSUITests.release.xcconfig */,
-				DE1A92D9A3A569AC9B7783EB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
-				B585ED732EA950900DE2847C /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+				82753E2B82E4DA80F1AA8D92 /* Pods-DeepSoundiOS.debug.xcconfig */,
+				BD66E32D5B7B83A47BAE4F23 /* Pods-DeepSoundiOS.release.xcconfig */,
+				3557011ADB3011C8BDCFE1F1 /* Pods-DeepSoundiOSTests.debug.xcconfig */,
+				4B0E2052EA2AC50FB13A6043 /* Pods-DeepSoundiOSTests.release.xcconfig */,
+				F0E03DD7303129F527EAB255 /* Pods-DeepSoundiOSUITests.debug.xcconfig */,
+				07AB7456DEB8EB169D0FA362 /* Pods-DeepSoundiOSUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -3315,10 +3282,9 @@
 				52FE3E3823982F3F008164CA /* MobileCoreServices.framework */,
 				52FE3E3623982F2F008164CA /* SystemConfiguration.framework */,
 				52FE3E3423982F1F008164CA /* SafariServices.framework */,
-				9315817B0EAD71B1DA23B509 /* Pods_DeepSoundiOS.framework */,
-				9C32F2BB925A6A887CAE2EDD /* Pods_DeepSoundiOSTests.framework */,
-				74E6E86A4C9ABFFE8C608C94 /* Pods_DeepSoundiOSUITests.framework */,
-				B671C55CB46DE702472C4ACA /* Pods_OneSignalNotificationServiceExtension.framework */,
+				511254E29EE8ABFF45D40170 /* Pods_DeepSoundiOS.framework */,
+				9EBAE004B209A9BC5B8709E3 /* Pods_DeepSoundiOSTests.framework */,
+				4140DC3A057A2BD0AF95884F /* Pods_DeepSoundiOSUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -3559,30 +3525,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		523C360822C3B4270036FFD5 /* OneSignalNotificationServiceExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 523C361322C3B4280036FFD5 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
-			buildPhases = (
-				4594DF6A343596CA893112A1 /* [CP] Check Pods Manifest.lock */,
-				523C360522C3B4270036FFD5 /* Sources */,
-				523C360622C3B4270036FFD5 /* Frameworks */,
-				523C360722C3B4270036FFD5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				17F8F0202943218200221BD1 /* PBXTargetDependency */,
-			);
-			name = OneSignalNotificationServiceExtension;
-			productName = OneSignalNotificationServiceExtension;
-			productReference = 523C360922C3B4270036FFD5 /* OneSignalNotificationServiceExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		52B474F422613719006B881F /* DeepSoundiOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52B475202261371C006B881F /* Build configuration list for PBXNativeTarget "DeepSoundiOS" */;
 			buildPhases = (
-				D135B9D071C930D83E0DA5E5 /* [CP] Check Pods Manifest.lock */,
+				355BA96C71DA1F4E93140D81 /* [CP] Check Pods Manifest.lock */,
 				5234777C22623C940026D859 /* ShellScript */,
 				52B474F122613719006B881F /* Sources */,
 				52B474F222613719006B881F /* Frameworks */,
@@ -3590,13 +3537,12 @@
 				523C361422C3B4280036FFD5 /* Embed App Extensions */,
 				524525AE22DE454F0060EC94 /* Embed Frameworks */,
 				523709B422F88D0E0020E995 /* Run Script */,
-				8F99EF1EC0F3E53DDE7962E9 /* [CP] Embed Pods Frameworks */,
-				08EF2F609DC0508924DF6A2F /* [CP] Copy Pods Resources */,
+				D39E7C132ACF7087E7C23915 /* [CP] Embed Pods Frameworks */,
+				C93DF536F1138DBDF6099E58 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				523C360F22C3B4270036FFD5 /* PBXTargetDependency */,
 				52AFA3312305F2600090FB13 /* PBXTargetDependency */,
 			);
 			name = DeepSoundiOS;
@@ -3608,7 +3554,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52B475232261371C006B881F /* Build configuration list for PBXNativeTarget "DeepSoundiOSTests" */;
 			buildPhases = (
-				55962C6419C838B89639B790 /* [CP] Check Pods Manifest.lock */,
+				01396DB209558FE4AC2FAB12 /* [CP] Check Pods Manifest.lock */,
 				52B475082261371C006B881F /* Sources */,
 				52B475092261371C006B881F /* Frameworks */,
 				52B4750A2261371C006B881F /* Resources */,
@@ -3627,7 +3573,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52B475262261371C006B881F /* Build configuration list for PBXNativeTarget "DeepSoundiOSUITests" */;
 			buildPhases = (
-				4F1CD9BABB19C667FBF6D8D4 /* [CP] Check Pods Manifest.lock */,
+				0C42F946253547E739760A5C /* [CP] Check Pods Manifest.lock */,
 				52B475132261371C006B881F /* Sources */,
 				52B475142261371C006B881F /* Frameworks */,
 				52B475152261371C006B881F /* Resources */,
@@ -3652,9 +3598,6 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Moghees Idrees";
 				TargetAttributes = {
-					523C360822C3B4270036FFD5 = {
-						CreatedOnToolsVersion = 10.2;
-					};
 					52B474F422613719006B881F = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1020;
@@ -3703,7 +3646,6 @@
 				52B474F422613719006B881F /* DeepSoundiOS */,
 				52B4750B2261371C006B881F /* DeepSoundiOSTests */,
 				52B475162261371C006B881F /* DeepSoundiOSUITests */,
-				523C360822C3B4270036FFD5 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -3719,13 +3661,6 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		523C360722C3B4270036FFD5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		52B474F322613719006B881F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3934,24 +3869,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08EF2F609DC0508924DF6A2F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DeepSoundiOS/Pods-DeepSoundiOS-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DeepSoundiOS/Pods-DeepSoundiOS-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepSoundiOS/Pods-DeepSoundiOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4594DF6A343596CA893112A1 /* [CP] Check Pods Manifest.lock */ = {
+		01396DB209558FE4AC2FAB12 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3966,14 +3884,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DeepSoundiOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4F1CD9BABB19C667FBF6D8D4 /* [CP] Check Pods Manifest.lock */ = {
+		0C42F946253547E739760A5C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3989,6 +3907,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DeepSoundiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		355BA96C71DA1F4E93140D81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepSoundiOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -4016,7 +3956,7 @@
 		};
 		523709B422F88D0E0020E995 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -4032,31 +3972,26 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name 'DeepSoundSDK.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone\n\n\n\n";
 		};
-		55962C6419C838B89639B790 /* [CP] Check Pods Manifest.lock */ = {
+		C93DF536F1138DBDF6099E58 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepSoundiOS/Pods-DeepSoundiOS-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DeepSoundiOSTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-DeepSoundiOS/Pods-DeepSoundiOS-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepSoundiOS/Pods-DeepSoundiOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8F99EF1EC0F3E53DDE7962E9 /* [CP] Embed Pods Frameworks */ = {
+		D39E7C132ACF7087E7C23915 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -4071,39 +4006,9 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepSoundiOS/Pods-DeepSoundiOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D135B9D071C930D83E0DA5E5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DeepSoundiOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		523C360522C3B4270036FFD5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				523C360C22C3B4270036FFD5 /* NotificationService.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		52B474F122613719006B881F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4469,16 +4374,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		17F8F0202943218200221BD1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LNPopupController;
-			targetProxy = 17F8F01F2943218200221BD1 /* PBXContainerItemProxy */;
-		};
-		523C360F22C3B4270036FFD5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 523C360822C3B4270036FFD5 /* OneSignalNotificationServiceExtension */;
-			targetProxy = 523C360E22C3B4270036FFD5 /* PBXContainerItemProxy */;
-		};
 		52AFA3312305F2600090FB13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LNPopupController;
@@ -4616,66 +4511,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		523C361122C3B4270036FFD5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE1A92D9A3A569AC9B7783EB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					x86_64,
-					arm64,
-				);
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = FXJHCKHG67;
-				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 2.0;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.krea8iv.Soundkit001.OneSignalNotificationServiceExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		523C361222C3B4270036FFD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B585ED732EA950900DE2847C /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
-			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					x86_64,
-					arm64,
-				);
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = FXJHCKHG67;
-				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 2.0;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.krea8iv.Soundkit001.OneSignalNotificationServiceExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
 		52B4751E2261371C006B881F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4799,7 +4634,7 @@
 		};
 		52B475212261371C006B881F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 852BA337B7F8C561C9F6A9FC /* Pods-DeepSoundiOS.debug.xcconfig */;
+			baseConfigurationReference = 82753E2B82E4DA80F1AA8D92 /* Pods-DeepSoundiOS.debug.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -4849,7 +4684,7 @@
 		};
 		52B475222261371C006B881F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10883D938CBDDEF900A89E76 /* Pods-DeepSoundiOS.release.xcconfig */;
+			baseConfigurationReference = BD66E32D5B7B83A47BAE4F23 /* Pods-DeepSoundiOS.release.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -4865,6 +4700,8 @@
 				DEVELOPMENT_TEAM = FXJHCKHG67;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -4899,7 +4736,7 @@
 		};
 		52B475242261371C006B881F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFF891691BA985F9B01F9EEB /* Pods-DeepSoundiOSTests.debug.xcconfig */;
+			baseConfigurationReference = 3557011ADB3011C8BDCFE1F1 /* Pods-DeepSoundiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -4922,7 +4759,7 @@
 		};
 		52B475252261371C006B881F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD61ED6ACFFFF181AD92FEE0 /* Pods-DeepSoundiOSTests.release.xcconfig */;
+			baseConfigurationReference = 4B0E2052EA2AC50FB13A6043 /* Pods-DeepSoundiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -4945,7 +4782,7 @@
 		};
 		52B475272261371C006B881F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06290949097A5FCF734F913A /* Pods-DeepSoundiOSUITests.debug.xcconfig */;
+			baseConfigurationReference = F0E03DD7303129F527EAB255 /* Pods-DeepSoundiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -4966,7 +4803,7 @@
 		};
 		52B475282261371C006B881F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB683DAA495D7CCA9C4CEBFE /* Pods-DeepSoundiOSUITests.release.xcconfig */;
+			baseConfigurationReference = 07AB7456DEB8EB169D0FA362 /* Pods-DeepSoundiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -4988,15 +4825,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		523C361322C3B4280036FFD5 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				523C361122C3B4270036FFD5 /* Debug */,
-				523C361222C3B4270036FFD5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		52B474F022613719006B881F /* Build configuration list for PBXProject "DeepSoundiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

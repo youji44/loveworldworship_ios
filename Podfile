@@ -62,10 +62,6 @@ pod 'SkeletonView'
   end
 end
 
-target 'OneSignalNotificationServiceExtension' do
-  use_frameworks!
-  pod 'OneSignal', '>= 2.6.2', '< 3.0'
-end
 
 post_install do |installer|
   installer.pods_project.build_configurations.each do |config|
